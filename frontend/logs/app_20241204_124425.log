@@ -1,0 +1,31 @@
+2024-12-04 12:44:25,768 [INFO] app1.py:898 - Active clients: []
+2024-12-04 12:44:25,770 [INFO] app1.py:1453 - Starting Flask application
+2024-12-04 12:44:25,771 [INFO] app1.py:1456 - Starting with Waitress server on http://127.0.0.1:4585
+2024-12-04 12:44:30,155 [INFO] app1.py:1230 - Initializing speech recognition
+2024-12-04 12:44:30,317 [INFO] app1.py:1267 - Starting continuous recognition
+2024-12-04 12:44:30,448 [INFO] app1.py:1280 - Audio stream started
+2024-12-04 12:44:47,780 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-04 12:44:47,781 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=69a3275a85e242a5bb2eaf9fee3cdd55, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-04 12:44:47,873 [DEBUG] app1.py:1254 - Speech recognizing: hello thank you
+2024-12-04 12:44:47,873 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=953a38a369e741818d2f46d6c640bcd0, text="hello thank you", reason=ResultReason.RecognizingSpeech)
+2024-12-04 12:44:48,056 [INFO] app1.py:1244 - Speech recognized: Hello, thank you.
+2024-12-04 12:44:48,057 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=a71f779aca4f4a77973af6cb9238b881, text="Hello, thank you.", reason=ResultReason.RecognizedSpeech)
+2024-12-04 12:44:49,013 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-04 12:44:49,013 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=b62eabe402184374af9c7bea75af6735, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-04 12:44:49,530 [DEBUG] app1.py:1254 - Speech recognizing: hello thank you
+2024-12-04 12:44:49,530 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=2ef5bebdc26b419cac0752abfd9c8dda, text="hello thank you", reason=ResultReason.RecognizingSpeech)
+2024-12-04 12:44:49,746 [DEBUG] app1.py:1254 - Speech recognizing: hello thank you network
+2024-12-04 12:44:49,747 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=030ad57a08014eed912734eb2dabcab2, text="hello thank you network", reason=ResultReason.RecognizingSpeech)
+2024-12-04 12:44:50,352 [INFO] app1.py:1244 - Speech recognized: Hello, thank you.
+2024-12-04 12:44:50,354 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=02b5df403c874d9a92aa30562164bacc, text="Hello, thank you.", reason=ResultReason.RecognizedSpeech)
+2024-12-04 12:44:55,772 [INFO] app1.py:898 - Active clients: []
+2024-12-04 12:44:58,352 [DEBUG] app1.py:1254 - Speech recognizing: python
+2024-12-04 12:44:58,352 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=e2f191591df140ff8b9c7a71a3fbc747, text="python", reason=ResultReason.RecognizingSpeech)
+2024-12-04 12:44:59,387 [INFO] app1.py:1244 - Speech recognized: 
+2024-12-04 12:44:59,388 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=511fd70f27934d69a0a653c00567bd16, text="", reason=ResultReason.RecognizedSpeech)
+2024-12-04 12:45:01,717 [INFO] app1.py:1443 - Received signal 2
+2024-12-04 12:45:01,721 [INFO] app1.py:1409 - Cleaning up resources...
+2024-12-04 12:45:01,722 [DEBUG] app1.py:1423 - Shutting down executor
+2024-12-04 12:45:01,722 [DEBUG] app1.py:1430 - Clearing queues
+2024-12-04 12:45:01,724 [INFO] app1.py:1439 - Cleanup completed
+2024-12-04 12:45:03,055 [INFO] app1.py:1304 - Speech recognition stopped

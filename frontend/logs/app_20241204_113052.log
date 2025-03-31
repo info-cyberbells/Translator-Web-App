@@ -1,0 +1,243 @@
+2024-12-04 11:30:52,877 [INFO] app1.py:898 - Active clients: []
+2024-12-04 11:30:52,881 [INFO] app1.py:1453 - Starting Flask application
+2024-12-04 11:30:52,881 [INFO] app1.py:1456 - Starting with Waitress server on http://127.0.0.1:4585
+2024-12-04 11:31:22,882 [INFO] app1.py:898 - Active clients: []
+2024-12-04 11:31:52,883 [INFO] app1.py:898 - Active clients: []
+2024-12-04 11:32:13,188 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-04 11:32:13,190 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-04 11:32:19,771 [INFO] app1.py:1230 - Initializing speech recognition
+2024-12-04 11:32:19,979 [INFO] app1.py:1267 - Starting continuous recognition
+2024-12-04 11:32:20,126 [INFO] app1.py:1280 - Audio stream started
+2024-12-04 11:32:21,438 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-04 11:32:21,438 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=5e1f1864c5cd4bd2adb4851feb15e866, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:32:21,439 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-04 11:32:22,278 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-04 11:32:22,279 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-04 11:32:22,396 [INFO] app1.py:1244 - Speech recognized: Hello.
+2024-12-04 11:32:22,396 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=b01e7d9ccfc14002b9e4a73dbe7f2861, text="Hello.", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:32:22,397 [DEBUG] app1.py:1104 - Sending transcription: Hello. (is_final: True)
+2024-12-04 11:32:22,885 [INFO] app1.py:898 - Active clients: []
+2024-12-04 11:32:24,093 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:32:24,094 [INFO] app1.py:1131 - Creating new client connection: 5a0816b8-4151-441f-a583-dfb06530bb72
+2024-12-04 11:32:25,875 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-04 11:32:25,875 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=7d80a5f8961644c284f530cffe826613, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:32:25,876 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-04 11:32:26,703 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-04 11:32:26,704 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-04 11:32:26,743 [INFO] app1.py:1244 - Speech recognized: Hello.
+2024-12-04 11:32:26,744 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=e451c72c469247eaab06e7e146ca78ed, text="Hello.", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:32:26,744 [DEBUG] app1.py:1104 - Sending transcription: Hello. (is_final: True)
+2024-12-04 11:32:33,959 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-04 11:32:33,960 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=b586400d723a4dd1bd2139bf220fe0f4, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:32:33,961 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-04 11:32:34,267 [DEBUG] app1.py:1254 - Speech recognizing: hello how are
+2024-12-04 11:32:34,267 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=71fa56a6c5104a6ca0282ad933a47e78, text="hello how are", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:32:34,268 [DEBUG] app1.py:1104 - Sending transcription: hello how are (is_final: False)
+2024-12-04 11:32:34,670 [DEBUG] app1.py:1254 - Speech recognizing: hello how are you
+2024-12-04 11:32:34,671 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=b1d1034d673342e4b7f48bad7b734411, text="hello how are you", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:32:34,671 [DEBUG] app1.py:1104 - Sending transcription: hello how are you (is_final: False)
+2024-12-04 11:32:35,503 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-04 11:32:35,504 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-04 11:32:35,542 [INFO] app1.py:1244 - Speech recognized: Hello, how are you?
+2024-12-04 11:32:35,543 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=5d2adc68c22542e9bb47ba9b36af6472, text="Hello, how are you?", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:32:35,543 [DEBUG] app1.py:1104 - Sending transcription: Hello, how are you? (is_final: True)
+2024-12-04 11:32:37,052 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-04 11:32:37,053 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=f4db2706c72640cb82c59705b5d34e0d, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:32:37,054 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-04 11:32:37,841 [DEBUG] app1.py:1254 - Speech recognizing: hello how are
+2024-12-04 11:32:37,842 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=9c11d758c46040079a8ebfbc6bfebe15, text="hello how are", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:32:37,842 [DEBUG] app1.py:1104 - Sending transcription: hello how are (is_final: False)
+2024-12-04 11:32:37,951 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-04 11:32:37,952 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=ed2bb770985f4ba69417dcfbfff763cd, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:32:37,952 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-04 11:32:37,968 [INFO] app1.py:1244 - Speech recognized: Hello, how are you?
+2024-12-04 11:32:37,970 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=35c5d2f6edc74c6e9f9cab921dd4b3b0, text="Hello, how are you?", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:32:37,972 [DEBUG] app1.py:1104 - Sending transcription: Hello, how are you? (is_final: True)
+2024-12-04 11:32:38,692 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: pt
+2024-12-04 11:32:40,661 [DEBUG] app1.py:1254 - Speech recognizing: what are you doing
+2024-12-04 11:32:40,662 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=dfeeaafb84444819b29614e07d64f011, text="what are you doing", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:32:40,663 [DEBUG] app1.py:1104 - Sending transcription: what are you doing (is_final: False)
+2024-12-04 11:32:41,200 [INFO] app1.py:1244 - Speech recognized: What are you doing?
+2024-12-04 11:32:41,201 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=b92952b8af094b11a992d2957627ab66, text="What are you doing?", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:32:41,202 [DEBUG] app1.py:1104 - Sending transcription: What are you doing? (is_final: True)
+2024-12-04 11:32:41,585 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-04 11:32:41,586 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-04 11:32:42,558 [DEBUG] app1.py:1254 - Speech recognizing: what are you
+2024-12-04 11:32:42,559 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=c72e74ea476b4d5aa12776c97d67f91d, text="what are you", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:32:42,560 [DEBUG] app1.py:1104 - Sending transcription: what are you (is_final: False)
+2024-12-04 11:32:42,759 [DEBUG] app1.py:1254 - Speech recognizing: what are you doing
+2024-12-04 11:32:42,760 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=ab209b77253943a7aa77106ed799066a, text="what are you doing", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:32:42,761 [DEBUG] app1.py:1104 - Sending transcription: what are you doing (is_final: False)
+2024-12-04 11:32:43,175 [INFO] app1.py:1244 - Speech recognized: What are you doing?
+2024-12-04 11:32:43,176 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=00abe3dea945448890373a7bf9f01d21, text="What are you doing?", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:32:43,176 [DEBUG] app1.py:1104 - Sending transcription: What are you doing? (is_final: True)
+2024-12-04 11:32:52,886 [INFO] app1.py:898 - Active clients: ['5a0816b8-4151-441f-a583-dfb06530bb72']
+2024-12-04 11:32:54,087 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-04 11:32:54,088 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-04 11:32:54,859 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:32:55,788 [INFO] app1.py:1244 - Speech recognized: Hi.
+2024-12-04 11:32:55,789 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=cf663658a8fc475bbcad1e8bb75fa29f, text="Hi.", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:32:55,790 [DEBUG] app1.py:1104 - Sending transcription: Hi. (is_final: True)
+2024-12-04 11:32:56,877 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: pt
+2024-12-04 11:32:57,889 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:32:59,909 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: pt
+2024-12-04 11:33:00,915 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:02,934 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: pt
+2024-12-04 11:33:03,939 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:05,951 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: pt
+2024-12-04 11:33:06,966 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:08,976 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: pt
+2024-12-04 11:33:09,986 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:12,005 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: pt
+2024-12-04 11:33:13,016 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:13,641 [DEBUG] app1.py:1254 - Speech recognizing: what are you doing
+2024-12-04 11:33:13,642 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=b860e1ab5f6e427e96a08c3447cb3ceb, text="what are you doing", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:33:13,644 [DEBUG] app1.py:1104 - Sending transcription: what are you doing (is_final: False)
+2024-12-04 11:33:14,561 [INFO] app1.py:1244 - Speech recognized: What are you doing?
+2024-12-04 11:33:14,562 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=50aed6693ec643778429d60dcb5a5430, text="What are you doing?", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:33:14,563 [DEBUG] app1.py:1104 - Sending transcription: What are you doing? (is_final: True)
+2024-12-04 11:33:15,027 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: pt
+2024-12-04 11:33:15,952 [DEBUG] app1.py:1254 - Speech recognizing: what
+2024-12-04 11:33:15,954 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=6575544b65894cf996ed7cf7e3537bd1, text="what", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:33:15,955 [DEBUG] app1.py:1104 - Sending transcription: what (is_final: False)
+2024-12-04 11:33:16,036 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:16,241 [DEBUG] app1.py:1254 - Speech recognizing: what are you
+2024-12-04 11:33:16,242 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=c54901c7ddd640179a1190c56a9c85f8, text="what are you", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:33:16,244 [DEBUG] app1.py:1104 - Sending transcription: what are you (is_final: False)
+2024-12-04 11:33:16,351 [DEBUG] app1.py:1254 - Speech recognizing: what are you doing
+2024-12-04 11:33:16,352 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=f09a828608594147b7768f5bbcb440d0, text="what are you doing", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:33:16,354 [DEBUG] app1.py:1104 - Sending transcription: what are you doing (is_final: False)
+2024-12-04 11:33:16,601 [INFO] app1.py:1244 - Speech recognized: What are you doing?
+2024-12-04 11:33:16,602 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=abf3d266b43b47bb8e82bd227059c166, text="What are you doing?", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:33:16,604 [DEBUG] app1.py:1104 - Sending transcription: What are you doing? (is_final: True)
+2024-12-04 11:33:18,061 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: pt
+2024-12-04 11:33:19,066 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:21,083 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: pt
+2024-12-04 11:33:22,090 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:22,888 [INFO] app1.py:898 - Active clients: ['5a0816b8-4151-441f-a583-dfb06530bb72']
+2024-12-04 11:33:24,096 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: pt
+2024-12-04 11:33:25,109 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:27,113 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: pt
+2024-12-04 11:33:27,689 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:33:28,122 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:28,696 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:30,706 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:33:31,713 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:33,727 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:33:34,731 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:36,640 [INFO] app1.py:1244 - Speech recognized: 
+2024-12-04 11:33:36,641 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=132f4e26c23145e0b62754c7dc022ae3, text="", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:33:36,642 [DEBUG] app1.py:1104 - Sending transcription:  (is_final: True)
+2024-12-04 11:33:36,749 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:33:37,753 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:39,779 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:33:40,783 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:42,802 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:33:43,807 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:45,834 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:33:46,849 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:48,859 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:33:49,862 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:51,599 [INFO] app1.py:1244 - Speech recognized: 
+2024-12-04 11:33:51,600 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=e3e6071d568f4c67ad70a5ab4be465c0, text="", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:33:51,602 [DEBUG] app1.py:1104 - Sending transcription:  (is_final: True)
+2024-12-04 11:33:51,872 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:33:52,886 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:52,890 [INFO] app1.py:898 - Active clients: ['5a0816b8-4151-441f-a583-dfb06530bb72']
+2024-12-04 11:33:54,898 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:33:55,906 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:33:57,916 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:33:58,933 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:34:00,944 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:34:01,948 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:34:03,964 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:34:04,971 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:34:06,647 [INFO] app1.py:1244 - Speech recognized: 
+2024-12-04 11:34:06,648 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=19228d302075415eadeea4274dbe90b8, text="", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:34:06,649 [DEBUG] app1.py:1104 - Sending transcription:  (is_final: True)
+2024-12-04 11:34:06,987 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:34:07,998 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:34:10,016 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:34:11,024 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:34:13,034 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:34:14,040 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:34:16,055 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:34:17,061 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:34:19,072 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:34:20,074 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:34:21,845 [INFO] app1.py:1244 - Speech recognized: 
+2024-12-04 11:34:21,847 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=723f1dd9efd94f41bdd8f0ae74986304, text="", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:34:21,848 [DEBUG] app1.py:1104 - Sending transcription:  (is_final: True)
+2024-12-04 11:34:22,087 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:34:22,892 [INFO] app1.py:898 - Active clients: ['5a0816b8-4151-441f-a583-dfb06530bb72']
+2024-12-04 11:34:23,100 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:34:23,348 [DEBUG] app1.py:1254 - Speech recognizing: abhi
+2024-12-04 11:34:23,349 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=fa3a341434f24edfa6a8d9de4c7a6c37, text="abhi", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:34:23,351 [DEBUG] app1.py:1104 - Sending transcription: abhi (is_final: False)
+2024-12-04 11:34:23,641 [DEBUG] app1.py:1254 - Speech recognizing: abhijeet
+2024-12-04 11:34:23,642 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=4887a58335fa4b4d891804cabcd70cec, text="abhijeet", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:34:23,643 [DEBUG] app1.py:1104 - Sending transcription: abhijeet (is_final: False)
+2024-12-04 11:34:24,046 [DEBUG] app1.py:1254 - Speech recognizing: abhik yadav kal
+2024-12-04 11:34:24,047 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=efcccddb9ebb4dbe83417264076d8367, text="abhik yadav kal", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:34:24,048 [DEBUG] app1.py:1104 - Sending transcription: abhik yadav kal (is_final: False)
+2024-12-04 11:34:24,617 [INFO] app1.py:1244 - Speech recognized: Abhijeet Kaal.
+2024-12-04 11:34:24,618 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=b5fcb798ba1c4e15b6f69174af71ee99, text="Abhijeet Kaal.", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:34:24,619 [DEBUG] app1.py:1104 - Sending transcription: Abhijeet Kaal. (is_final: True)
+2024-12-04 11:34:25,116 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:34:26,123 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:34:26,346 [DEBUG] app1.py:1254 - Speech recognizing: rajinikanth
+2024-12-04 11:34:26,346 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=b5d4161df0764068869868d498c1e226, text="rajinikanth", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:34:26,346 [DEBUG] app1.py:1104 - Sending transcription: rajinikanth (is_final: False)
+2024-12-04 11:34:28,133 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:34:29,141 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:34:31,156 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:34:31,448 [DEBUG] app1.py:1254 - Speech recognizing: colour one
+2024-12-04 11:34:31,448 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=cd052d14bc194327a27c2d80cf0ab974, text="colour one", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:34:31,450 [DEBUG] app1.py:1104 - Sending transcription: colour one (is_final: False)
+2024-12-04 11:34:31,865 [DEBUG] app1.py:1254 - Speech recognizing: colour 1:45
+2024-12-04 11:34:31,865 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=261bc36dea11474c8472a034c8c11039, text="colour 1:45", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:34:31,866 [DEBUG] app1.py:1104 - Sending transcription: colour 1:45 (is_final: False)
+2024-12-04 11:34:32,159 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:34:33,707 [INFO] app1.py:1244 - Speech recognized: Colour 1:45.
+2024-12-04 11:34:33,708 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=3936db42a7b0417684f8673fe3599bd8, text="Colour 1:45.", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:34:33,709 [DEBUG] app1.py:1104 - Sending transcription: Colour 1:45. (is_final: True)
+2024-12-04 11:34:34,176 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:34:34,655 [DEBUG] app1.py:1254 - Speech recognizing: 1
+2024-12-04 11:34:34,656 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=bc263f78c36d4281bab3262b83d8f7de, text="1", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:34:34,657 [DEBUG] app1.py:1104 - Sending transcription: 1 (is_final: False)
+2024-12-04 11:34:34,966 [DEBUG] app1.py:1254 - Speech recognizing: 150
+2024-12-04 11:34:34,967 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=eaf067a4da5641f8af4efb7bd3a71bad, text="150", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:34:34,968 [DEBUG] app1.py:1104 - Sending transcription: 150 (is_final: False)
+2024-12-04 11:34:35,181 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:34:36,261 [DEBUG] app1.py:1254 - Speech recognizing: 15150
+2024-12-04 11:34:36,262 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=018081eb096d43d48dc9a5fa9fe22756, text="15150", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:34:36,263 [DEBUG] app1.py:1104 - Sending transcription: 15150 (is_final: False)
+2024-12-04 11:34:37,158 [DEBUG] app1.py:1254 - Speech recognizing: 15151
+2024-12-04 11:34:37,159 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=09be49fe89ca4ac9847db5dbd45bda0e, text="15151", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:34:37,160 [DEBUG] app1.py:1104 - Sending transcription: 15151 (is_final: False)
+2024-12-04 11:34:37,191 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:34:37,674 [DEBUG] app1.py:1254 - Speech recognizing: 1515155
+2024-12-04 11:34:37,676 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=58746ebb702246eaa49a97c5198a7ae3, text="1515155", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:34:37,680 [DEBUG] app1.py:1104 - Sending transcription: 1515155 (is_final: False)
+2024-12-04 11:34:38,200 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:34:39,494 [INFO] app1.py:1244 - Speech recognized: 1515155.
+2024-12-04 11:34:39,495 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=587ee3576ce04d14b2f378cd51940af6, text="1515155.", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:34:39,496 [DEBUG] app1.py:1104 - Sending transcription: 1515155. (is_final: True)
+2024-12-04 11:34:40,209 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:34:41,219 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:34:42,591 [INFO] app1.py:1181 - Stopping stream processing
+2024-12-04 11:34:42,601 [INFO] app1.py:1209 - Stream stopped successfully
+2024-12-04 11:34:42,911 [INFO] app1.py:1304 - Speech recognition stopped
+2024-12-04 11:34:43,228 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:34:43,230 [DEBUG] app1.py:1144 - Sending message to client 5a0816b8-4151-441f-a583-dfb06530bb72: {'type': 'final', 'translation': ''}
+2024-12-04 11:34:52,893 [INFO] app1.py:898 - Active clients: ['5a0816b8-4151-441f-a583-dfb06530bb72']
+2024-12-04 11:35:13,487 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:35:15,818 [INFO] app1.py:1121 - New translation stream connection for client: 5a0816b8-4151-441f-a583-dfb06530bb72, language: es
+2024-12-04 11:35:16,821 [WARNING] app1.py:1148 - Client 5a0816b8-4151-441f-a583-dfb06530bb72 connection timed out
+2024-12-04 11:35:22,894 [INFO] app1.py:898 - Active clients: ['5a0816b8-4151-441f-a583-dfb06530bb72']
+2024-12-04 11:35:52,895 [INFO] app1.py:898 - Active clients: ['5a0816b8-4151-441f-a583-dfb06530bb72']
+2024-12-04 11:36:22,898 [INFO] app1.py:898 - Active clients: ['5a0816b8-4151-441f-a583-dfb06530bb72']
+2024-12-04 11:36:52,899 [INFO] app1.py:898 - Active clients: ['5a0816b8-4151-441f-a583-dfb06530bb72']
+2024-12-04 11:37:22,900 [INFO] app1.py:898 - Active clients: ['5a0816b8-4151-441f-a583-dfb06530bb72']
+2024-12-04 11:37:52,902 [INFO] app1.py:898 - Active clients: ['5a0816b8-4151-441f-a583-dfb06530bb72']
+2024-12-04 11:38:22,904 [INFO] app1.py:898 - Active clients: ['5a0816b8-4151-441f-a583-dfb06530bb72']

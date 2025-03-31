@@ -1,0 +1,207 @@
+2024-11-25 12:59:58,165 [INFO] app1.py:485 - Starting Flask application
+2024-11-25 13:00:01,101 [DEBUG] app1.py:121 - New request started with ID: 9efbcb2a-6a70-4c3c-baab-a4865d3f9354
+2024-11-25 13:00:01,102 [INFO] app1.py:194 - Home page requested
+2024-11-25 13:00:01,620 [DEBUG] app1.py:121 - New request started with ID: 4c641aed-3335-4f0e-9f11-45b5db475b62
+2024-11-25 13:00:01,621 [ERROR] app1.py:479 - Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-25 13:00:04,362 [DEBUG] app1.py:121 - New request started with ID: 1910725e-52ee-4696-8284-98792d77313e
+2024-11-25 13:00:04,364 [INFO] app1.py:266 - Join live page requested
+2024-11-25 13:00:05,264 [DEBUG] app1.py:121 - New request started with ID: 3ed3f371-fca8-43e8-b107-9637581ea01c
+2024-11-25 13:00:05,265 [ERROR] app1.py:479 - Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-25 13:00:06,075 [DEBUG] app1.py:121 - New request started with ID: e2c626b5-c762-4770-a205-9b170232be72
+2024-11-25 13:00:06,076 [INFO] app1.py:261 - Go live page requested
+2024-11-25 13:00:06,204 [DEBUG] app1.py:121 - New request started with ID: af936a5e-16ed-40b4-a3ad-f0bbcfbf4bad
+2024-11-25 13:00:06,205 [ERROR] app1.py:479 - Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-25 13:00:07,464 [DEBUG] app1.py:121 - New request started with ID: caac0811-ec92-4833-9be1-3cd0c0639e45
+2024-11-25 13:00:07,465 [INFO] app1.py:273 - Stream start requested. Type: broadcaster
+2024-11-25 13:00:07,467 [INFO] app1.py:413 - Initializing audio streaming
+2024-11-25 13:00:07,467 [INFO] app1.py:279 - Broadcasting started
+2024-11-25 13:00:07,673 [INFO] app1.py:452 - Starting continuous recognition
+2024-11-25 13:00:07,836 [INFO] app1.py:457 - Audio stream opened
+2024-11-25 13:00:09,873 [DEBUG] app1.py:121 - New request started with ID: 36ca05b6-197e-4149-8d4c-4a26c57fef6d
+2024-11-25 13:00:09,874 [INFO] app1.py:273 - Stream start requested. Type: 
+2024-11-25 13:00:09,876 [INFO] app1.py:284 - Listener connected
+2024-11-25 13:00:09,919 [DEBUG] app1.py:121 - New request started with ID: 4ed70ca8-55ed-49f6-935d-e6e118d989a3
+2024-11-25 13:00:09,928 [INFO] app1.py:345 - New transcription stream connection
+2024-11-25 13:00:23,289 [DEBUG] app1.py:121 - New request started with ID: d0f1fecd-020a-43b0-8427-70a66f7333f1
+2024-11-25 13:00:23,290 [INFO] app1.py:290 - Stream stop requested
+2024-11-25 13:00:23,295 [INFO] app1.py:468 - Cleaning up audio stream
+2024-11-25 13:00:23,328 [INFO] app1.py:473 - Audio streaming stopped
+2024-11-25 13:00:36,692 [DEBUG] app1.py:121 - New request started with ID: 9a06e20a-e152-4155-884c-0e8987b01543
+2024-11-25 13:00:36,693 [INFO] app1.py:261 - Go live page requested
+2024-11-25 13:00:36,785 [DEBUG] app1.py:121 - New request started with ID: 528a306a-a62c-4091-be3a-daef247fb633
+2024-11-25 13:00:36,786 [ERROR] app1.py:479 - Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-25 13:00:38,745 [DEBUG] app1.py:121 - New request started with ID: fc0f1734-25eb-4b81-8ab1-5dc63506b953
+2024-11-25 13:00:38,746 [INFO] app1.py:266 - Join live page requested
+2024-11-25 13:00:38,820 [DEBUG] app1.py:121 - New request started with ID: b5c521dc-eaaf-4f7a-8a5e-41fdc39208a4
+2024-11-25 13:00:38,821 [ERROR] app1.py:479 - Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-25 13:01:20,761 [DEBUG] app1.py:121 - New request started with ID: 24aeb72f-cb51-47e7-b175-875f29cdec9c
+2024-11-25 13:01:20,762 [INFO] app1.py:261 - Go live page requested
+2024-11-25 13:01:20,859 [DEBUG] app1.py:121 - New request started with ID: fe245233-6464-41ed-9c5e-dfed909f472b
+2024-11-25 13:01:20,861 [ERROR] app1.py:479 - Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-25 13:01:22,768 [DEBUG] app1.py:121 - New request started with ID: 06db41aa-44d4-497b-985f-0b611deb26f9
+2024-11-25 13:01:22,769 [INFO] app1.py:266 - Join live page requested
+2024-11-25 13:01:22,852 [DEBUG] app1.py:121 - New request started with ID: 2a9f9163-8d33-4b51-a416-baca42ce3dd1
+2024-11-25 13:01:22,853 [ERROR] app1.py:479 - Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-25 13:01:24,810 [DEBUG] app1.py:121 - New request started with ID: 70891c4b-a4bc-4c68-97d5-2b95b3956f9f
+2024-11-25 13:01:24,812 [INFO] app1.py:273 - Stream start requested. Type: broadcaster
+2024-11-25 13:01:24,813 [INFO] app1.py:279 - Broadcasting started
+2024-11-25 13:01:24,813 [INFO] app1.py:413 - Initializing audio streaming
+2024-11-25 13:01:24,980 [INFO] app1.py:452 - Starting continuous recognition
+2024-11-25 13:01:25,088 [INFO] app1.py:457 - Audio stream opened
+2024-11-25 13:01:58,962 [DEBUG] app1.py:121 - New request started with ID: 8db90fee-58ff-477c-a35b-da72341e8f60
+2024-11-25 13:01:58,963 [INFO] app1.py:273 - Stream start requested. Type: 
+2024-11-25 13:01:58,963 [INFO] app1.py:284 - Listener connected
+2024-11-25 13:01:58,970 [DEBUG] app1.py:121 - New request started with ID: 7518acba-0e00-47d2-85df-fb1f200a06c4
+2024-11-25 13:01:58,971 [INFO] app1.py:345 - New transcription stream connection
+2024-11-25 13:02:16,854 [DEBUG] app1.py:121 - New request started with ID: 39f1b711-c7a1-4e4e-a1d1-4007864515fb
+2024-11-25 13:02:16,856 [INFO] app1.py:266 - Join live page requested
+2024-11-25 13:02:17,144 [DEBUG] app1.py:121 - New request started with ID: d0b22a1b-f26f-47c6-8d0d-bd1af92bfcbf
+2024-11-25 13:02:17,145 [ERROR] app1.py:479 - Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-25 13:02:22,481 [DEBUG] app1.py:121 - New request started with ID: eea1d70d-fb56-4bbc-8b7a-2d179aa3f2dd
+2024-11-25 13:02:22,482 [INFO] app1.py:273 - Stream start requested. Type: 
+2024-11-25 13:02:22,482 [INFO] app1.py:284 - Listener connected
+2024-11-25 13:02:22,491 [DEBUG] app1.py:121 - New request started with ID: 47e6d141-100d-451c-b11f-02fd014f8f96
+2024-11-25 13:02:22,492 [INFO] app1.py:345 - New transcription stream connection
+2024-11-25 13:02:54,552 [DEBUG] app1.py:121 - New request started with ID: 676a4083-37f6-4cec-9327-240dd89685cb
+2024-11-25 13:02:54,553 [INFO] app1.py:290 - Stream stop requested
+2024-11-25 13:02:54,568 [INFO] app1.py:468 - Cleaning up audio stream
+2024-11-25 13:02:54,601 [INFO] app1.py:473 - Audio streaming stopped
+2024-11-25 13:02:56,153 [DEBUG] app1.py:121 - New request started with ID: c42b197e-14cc-4724-8b16-a158c71c36ec
+2024-11-25 13:02:56,153 [INFO] app1.py:266 - Join live page requested
+2024-11-25 13:02:56,413 [DEBUG] app1.py:121 - New request started with ID: 7f48ba8d-d100-49b5-830c-ce5c7dc96f9e
+2024-11-25 13:02:56,414 [ERROR] app1.py:479 - Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rahul Rangra\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.

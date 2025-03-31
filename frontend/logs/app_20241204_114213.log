@@ -1,0 +1,87 @@
+2024-12-04 11:42:13,594 [INFO] app1.py:898 - Active clients: []
+2024-12-04 11:42:13,598 [INFO] app1.py:1453 - Starting Flask application
+2024-12-04 11:42:13,599 [INFO] app1.py:1456 - Starting with Waitress server on http://127.0.0.1:4585
+2024-12-04 11:42:14,884 [INFO] app1.py:1121 - New translation stream connection for client: a02ecff7-4b96-4af3-8bd3-4da6101532bf, language: es
+2024-12-04 11:42:14,886 [INFO] app1.py:1131 - Creating new client connection: a02ecff7-4b96-4af3-8bd3-4da6101532bf
+2024-12-04 11:42:43,600 [INFO] app1.py:898 - Active clients: ['a02ecff7-4b96-4af3-8bd3-4da6101532bf']
+2024-12-04 11:43:13,603 [INFO] app1.py:898 - Active clients: ['a02ecff7-4b96-4af3-8bd3-4da6101532bf']
+2024-12-04 11:43:43,605 [INFO] app1.py:898 - Active clients: ['a02ecff7-4b96-4af3-8bd3-4da6101532bf']
+2024-12-04 11:44:13,607 [INFO] app1.py:898 - Active clients: ['a02ecff7-4b96-4af3-8bd3-4da6101532bf']
+2024-12-04 11:44:37,239 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-04 11:44:37,239 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-04 11:44:43,607 [INFO] app1.py:898 - Active clients: ['a02ecff7-4b96-4af3-8bd3-4da6101532bf']
+2024-12-04 11:44:45,940 [INFO] app1.py:1230 - Initializing speech recognition
+2024-12-04 11:44:46,097 [INFO] app1.py:1267 - Starting continuous recognition
+2024-12-04 11:44:46,233 [INFO] app1.py:1280 - Audio stream started
+2024-12-04 11:44:47,611 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-04 11:44:47,611 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=0bb56fd266fb42fc88375068ce1bd906, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:44:47,611 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-04 11:44:48,498 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-04 11:44:48,499 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-04 11:44:48,541 [INFO] app1.py:1244 - Speech recognized: Hello.
+2024-12-04 11:44:48,542 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=0ca9df9fc7e645bc8a199fc93c8096bb, text="Hello.", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:44:48,542 [DEBUG] app1.py:1104 - Sending transcription: Hello. (is_final: True)
+2024-12-04 11:44:49,930 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-04 11:44:49,935 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=71e4b086951840cb842582fe4595c981, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:44:49,935 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-04 11:44:50,161 [INFO] app1.py:1121 - New translation stream connection for client: 57978812-6745-42ab-9a89-6121dd90c3d4, language: es
+2024-12-04 11:44:50,162 [INFO] app1.py:1131 - Creating new client connection: 57978812-6745-42ab-9a89-6121dd90c3d4
+2024-12-04 11:44:51,713 [INFO] app1.py:1244 - Speech recognized: Hello.
+2024-12-04 11:44:51,714 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=1377d60d869e4c4b974c5ac74ea6e2d9, text="Hello.", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:44:51,716 [DEBUG] app1.py:1104 - Sending transcription: Hello. (is_final: True)
+2024-12-04 11:44:51,837 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-04 11:44:51,837 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=0318626b51144b9ab2badf3b63bd94ec, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:44:51,838 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-04 11:44:53,280 [INFO] app1.py:1244 - Speech recognized: Hello.
+2024-12-04 11:44:53,281 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=f59dadf52e0b4a6f9e4dcf2d842ff371, text="Hello.", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:44:53,281 [DEBUG] app1.py:1104 - Sending transcription: Hello. (is_final: True)
+2024-12-04 11:44:53,554 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-04 11:44:53,555 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-04 11:44:54,664 [INFO] app1.py:1121 - New translation stream connection for client: 57978812-6745-42ab-9a89-6121dd90c3d4, language: pt
+2024-12-04 11:44:54,958 [DEBUG] app1.py:1254 - Speech recognizing: aura
+2024-12-04 11:44:54,959 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=77f9160e724444e993c3e6567cfa9002, text="aura", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:44:54,960 [DEBUG] app1.py:1104 - Sending transcription: aura (is_final: False)
+2024-12-04 11:44:55,251 [DEBUG] app1.py:1254 - Speech recognizing: auraj
+2024-12-04 11:44:55,251 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=454bec863ced402f9b2df4eb08ae62e8, text="auraj", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:44:55,253 [DEBUG] app1.py:1104 - Sending transcription: auraj (is_final: False)
+2024-12-04 11:44:55,561 [DEBUG] app1.py:1254 - Speech recognizing: aura majid
+2024-12-04 11:44:55,562 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=9d5d8eaa007f492280b33e816d2bff73, text="aura majid", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:44:55,565 [DEBUG] app1.py:1104 - Sending transcription: aura majid (is_final: False)
+2024-12-04 11:44:55,656 [DEBUG] app1.py:1254 - Speech recognizing: aura majid trans
+2024-12-04 11:44:55,657 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=e547917a72344c5da239227709d2795d, text="aura majid trans", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:44:55,658 [DEBUG] app1.py:1104 - Sending transcription: aura majid trans (is_final: False)
+2024-12-04 11:44:55,852 [DEBUG] app1.py:1254 - Speech recognizing: aura majid translate
+2024-12-04 11:44:55,853 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=f1c06e670e464cc6b5426954eb303850, text="aura majid translate", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:44:55,855 [DEBUG] app1.py:1104 - Sending transcription: aura majid translate (is_final: False)
+2024-12-04 11:44:56,256 [DEBUG] app1.py:1254 - Speech recognizing: aura majid translate nikita khan
+2024-12-04 11:44:56,257 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=19100a0d42ae4c089852e146554c4ee2, text="aura majid translate nikita khan", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:44:56,258 [DEBUG] app1.py:1104 - Sending transcription: aura majid translate nikita khan (is_final: False)
+2024-12-04 11:44:56,581 [DEBUG] app1.py:1254 - Speech recognizing: aura majid translate nikita khan duj
+2024-12-04 11:44:56,582 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=1602db6685df45618aaf2937266e4c95, text="aura majid translate nikita khan duj", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:44:56,584 [DEBUG] app1.py:1104 - Sending transcription: aura majid translate nikita khan duj (is_final: False)
+2024-12-04 11:44:56,881 [DEBUG] app1.py:1254 - Speech recognizing: aura majid translate nikita khan duj language
+2024-12-04 11:44:56,882 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=1212cf7a25d1461a8f4e82cd7586170c, text="aura majid translate nikita khan duj language", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:44:56,883 [DEBUG] app1.py:1104 - Sending transcription: aura majid translate nikita khan duj language (is_final: False)
+2024-12-04 11:44:58,474 [DEBUG] app1.py:1254 - Speech recognizing: aura majid translate nikita khan duj language hello
+2024-12-04 11:44:58,475 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=7443e7164b8d4ef5bea273db69d8480c, text="aura majid translate nikita khan duj language hello", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:44:58,477 [DEBUG] app1.py:1104 - Sending transcription: aura majid translate nikita khan duj language hello (is_final: False)
+2024-12-04 11:44:59,891 [INFO] app1.py:1244 - Speech recognized: Auraj translate Nikita Khan duj language. Hello.
+2024-12-04 11:44:59,892 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=e3da80bb43be41d68af737184f685740, text="Auraj translate Nikita Khan duj language. Hello.", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:44:59,893 [DEBUG] app1.py:1104 - Sending transcription: Auraj translate Nikita Khan duj language. Hello. (is_final: True)
+2024-12-04 11:45:01,913 [DEBUG] app1.py:1254 - Speech recognizing: orange
+2024-12-04 11:45:01,913 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=bb23b80a52cc42c6ab203eae31428c61, text="orange", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:45:01,914 [DEBUG] app1.py:1104 - Sending transcription: orange (is_final: False)
+2024-12-04 11:45:02,205 [DEBUG] app1.py:1254 - Speech recognizing: orange translate
+2024-12-04 11:45:02,206 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=32c1b66a0aee4f81b879abce5dbdac06, text="orange translate", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:45:02,207 [DEBUG] app1.py:1104 - Sending transcription: orange translate (is_final: False)
+2024-12-04 11:45:03,106 [DEBUG] app1.py:1254 - Speech recognizing: orange translate foundation
+2024-12-04 11:45:03,106 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=d9c5a1b378434003b37e8a13bc3b8914, text="orange translate foundation", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:45:03,107 [DEBUG] app1.py:1104 - Sending transcription: orange translate foundation (is_final: False)
+2024-12-04 11:45:03,509 [DEBUG] app1.py:1254 - Speech recognizing: orange translate foundation always
+2024-12-04 11:45:03,510 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=73ed7f781d1b45b1a4cb15382896730b, text="orange translate foundation always", reason=ResultReason.RecognizingSpeech)
+2024-12-04 11:45:03,511 [DEBUG] app1.py:1104 - Sending transcription: orange translate foundation always (is_final: False)
+2024-12-04 11:45:13,609 [INFO] app1.py:898 - Active clients: ['a02ecff7-4b96-4af3-8bd3-4da6101532bf', '57978812-6745-42ab-9a89-6121dd90c3d4']
+2024-12-04 11:45:18,673 [INFO] app1.py:1244 - Speech recognized: 
+2024-12-04 11:45:18,674 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=9488c90e3ecc47139934a07e8d4a3eb2, text="", reason=ResultReason.RecognizedSpeech)
+2024-12-04 11:45:18,675 [DEBUG] app1.py:1104 - Sending transcription:  (is_final: True)
+2024-12-04 11:45:20,931 [WARNING] app1.py:1148 - Client 57978812-6745-42ab-9a89-6121dd90c3d4 connection timed out

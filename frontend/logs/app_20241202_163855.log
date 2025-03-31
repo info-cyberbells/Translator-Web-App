@@ -1,0 +1,165 @@
+2024-12-02 16:38:55,375 [INFO] app1.py:898 - Active clients: []
+2024-12-02 16:38:55,378 [INFO] app1.py:1402 - Starting Flask application
+2024-12-02 16:38:55,379 [INFO] app1.py:1405 - Starting with Waitress server on http://127.0.0.1:4585
+2024-12-02 16:39:06,200 [INFO] app1.py:1192 - Initializing speech recognition
+2024-12-02 16:39:06,369 [INFO] app1.py:1227 - Starting continuous recognition
+2024-12-02 16:39:06,492 [INFO] app1.py:1240 - Audio stream started
+2024-12-02 16:39:08,874 [DEBUG] app1.py:1214 - Speech recognizing: hi
+2024-12-02 16:39:08,874 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=6e64b850e5814d16ae382f9fece2f705, text="hi", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:39:09,716 [DEBUG] app1.py:1214 - Speech recognizing: hi how are you
+2024-12-02 16:39:09,718 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=7df23eb24c874283bb8bb704eb329a5f, text="hi how are you", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:39:11,016 [INFO] app1.py:1205 - Speech recognized: Hi, how are you?
+2024-12-02 16:39:11,017 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=98dcfb182a0846e7925ca796d06efa06, text="Hi, how are you?", reason=ResultReason.RecognizedSpeech)
+2024-12-02 16:39:14,356 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-02 16:39:14,356 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-02 16:39:14,357 [DEBUG] app1.py:1104 - Sending transcription: hi (is_final: False)
+2024-12-02 16:39:14,358 [DEBUG] app1.py:1104 - Sending transcription: hi how are you (is_final: False)
+2024-12-02 16:39:14,362 [DEBUG] app1.py:1104 - Sending transcription: Hi, how are you? (is_final: True)
+2024-12-02 16:39:21,098 [DEBUG] app1.py:1214 - Speech recognizing: hi
+2024-12-02 16:39:21,099 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=eae619e6fcae4cb397e586d31d097b9d, text="hi", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:39:21,100 [DEBUG] app1.py:1104 - Sending transcription: hi (is_final: False)
+2024-12-02 16:39:21,408 [DEBUG] app1.py:1214 - Speech recognizing: hi what are you
+2024-12-02 16:39:21,408 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=0d02df3c02a741089214567ba7185e93, text="hi what are you", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:39:21,409 [DEBUG] app1.py:1104 - Sending transcription: hi what are you (is_final: False)
+2024-12-02 16:39:21,813 [DEBUG] app1.py:1214 - Speech recognizing: hi what are you doing
+2024-12-02 16:39:21,813 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=cc16e64aa0114ea69924471640ba5c59, text="hi what are you doing", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:39:21,815 [DEBUG] app1.py:1104 - Sending transcription: hi what are you doing (is_final: False)
+2024-12-02 16:39:22,512 [INFO] app1.py:1205 - Speech recognized: Hi, what are you doing?
+2024-12-02 16:39:22,512 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=f097c0291c864ce9b17664760a4d590a, text="Hi, what are you doing?", reason=ResultReason.RecognizedSpeech)
+2024-12-02 16:39:22,513 [DEBUG] app1.py:1104 - Sending transcription: Hi, what are you doing? (is_final: True)
+2024-12-02 16:39:25,380 [INFO] app1.py:898 - Active clients: []
+2024-12-02 16:39:42,521 [INFO] app1.py:1205 - Speech recognized: 
+2024-12-02 16:39:42,521 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=8a4c2bfba98e4b829417458082e396f7, text="", reason=ResultReason.RecognizedSpeech)
+2024-12-02 16:39:42,522 [DEBUG] app1.py:1104 - Sending transcription:  (is_final: True)
+2024-12-02 16:39:55,382 [INFO] app1.py:898 - Active clients: []
+2024-12-02 16:39:57,849 [INFO] app1.py:1205 - Speech recognized: 
+2024-12-02 16:39:57,849 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=0f2ce87112ea42348882c21d233f2268, text="", reason=ResultReason.RecognizedSpeech)
+2024-12-02 16:39:57,850 [DEBUG] app1.py:1104 - Sending transcription:  (is_final: True)
+2024-12-02 16:40:05,517 [DEBUG] app1.py:1214 - Speech recognizing: rent
+2024-12-02 16:40:05,518 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=08d3da3d90284508993538cb0d904ea4, text="rent", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:05,519 [DEBUG] app1.py:1104 - Sending transcription: rent (is_final: False)
+2024-12-02 16:40:05,811 [DEBUG] app1.py:1214 - Speech recognizing: front passcription
+2024-12-02 16:40:05,812 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=ed4d076988454289a41f346c5b6814f2, text="front passcription", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:05,813 [DEBUG] app1.py:1104 - Sending transcription: front passcription (is_final: False)
+2024-12-02 16:40:07,640 [INFO] app1.py:1205 - Speech recognized: Front passcription.
+2024-12-02 16:40:07,642 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=a820b84962d64e5bafd7afc7d6b211b9, text="Front passcription.", reason=ResultReason.RecognizedSpeech)
+2024-12-02 16:40:07,642 [DEBUG] app1.py:1104 - Sending transcription: Front passcription. (is_final: True)
+2024-12-02 16:40:12,140 [INFO] app1.py:1205 - Speech recognized: And.
+2024-12-02 16:40:12,140 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=b4b0cd38031044cfa33ad611187724f4, text="And.", reason=ResultReason.RecognizedSpeech)
+2024-12-02 16:40:12,141 [DEBUG] app1.py:1104 - Sending transcription: And. (is_final: True)
+2024-12-02 16:40:21,044 [DEBUG] app1.py:1214 - Speech recognizing: jay krishna's
+2024-12-02 16:40:21,045 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=a0a1485a38b7432bbbe62294a096f4b0, text="jay krishna's", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:21,046 [DEBUG] app1.py:1104 - Sending transcription: jay krishna's (is_final: False)
+2024-12-02 16:40:21,357 [DEBUG] app1.py:1214 - Speech recognizing: jay krishna's team
+2024-12-02 16:40:21,358 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=2776f31fe21b4d8594b5e69998cdf2a1, text="jay krishna's team", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:21,359 [DEBUG] app1.py:1104 - Sending transcription: jay krishna's team (is_final: False)
+2024-12-02 16:40:21,651 [DEBUG] app1.py:1214 - Speech recognizing: jay krishna's team in cloudy with
+2024-12-02 16:40:21,652 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=bddc2b00836b4960a23586a9f0816fff, text="jay krishna's team in cloudy with", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:21,653 [DEBUG] app1.py:1104 - Sending transcription: jay krishna's team in cloudy with (is_final: False)
+2024-12-02 16:40:22,718 [DEBUG] app1.py:1214 - Speech recognizing: jay krishna's team in cloudy with joshua
+2024-12-02 16:40:22,719 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=0d79e91108344aad8babbfee3305264c, text="jay krishna's team in cloudy with joshua", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:22,719 [DEBUG] app1.py:1104 - Sending transcription: jay krishna's team in cloudy with joshua (is_final: False)
+2024-12-02 16:40:22,734 [INFO] app1.py:1205 - Speech recognized: Jay Krishna's team in Cloudy with Joshua.
+2024-12-02 16:40:22,735 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=109c2f86c3804c45b3412c3bdcc5f0dd, text="Jay Krishna's team in Cloudy with Joshua.", reason=ResultReason.RecognizedSpeech)
+2024-12-02 16:40:22,735 [DEBUG] app1.py:1104 - Sending transcription: Jay Krishna's team in Cloudy with Joshua. (is_final: True)
+2024-12-02 16:40:25,383 [INFO] app1.py:898 - Active clients: []
+2024-12-02 16:40:25,422 [DEBUG] app1.py:1214 - Speech recognizing: jazz in
+2024-12-02 16:40:25,422 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=b9f2d5f65a6b46a49439fda8bce4436b, text="jazz in", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:25,424 [DEBUG] app1.py:1104 - Sending transcription: jazz in (is_final: False)
+2024-12-02 16:40:25,624 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuchibh
+2024-12-02 16:40:25,625 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=f653104bc1d24e0eb1f2e8ab760bdf8f, text="jazz in kuchibh", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:25,626 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuchibh (is_final: False)
+2024-12-02 16:40:26,013 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch me rujan
+2024-12-02 16:40:26,014 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=49e1182da1024f53b2f15b0aedcc798e, text="jazz in kuch me rujan", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:26,015 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch me rujan (is_final: False)
+2024-12-02 16:40:26,324 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another
+2024-12-02 16:40:26,326 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=e76ef7df1580401b94a14953447bd65a, text="jazz in kuch mehraj another", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:26,327 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another (is_final: False)
+2024-12-02 16:40:26,725 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down
+2024-12-02 16:40:26,726 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=570c42477b3a4c75917dc9d9d2c9ce29, text="jazz in kuch mehraj another claw down", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:26,728 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down (is_final: False)
+2024-12-02 16:40:26,910 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down with
+2024-12-02 16:40:26,913 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=846f9d824cac4ce0a182eb4a581c8fc5, text="jazz in kuch mehraj another claw down with", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:26,914 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down with (is_final: False)
+2024-12-02 16:40:27,313 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down with kuch nahi
+2024-12-02 16:40:27,314 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=c851316c17b9488c9aa984d034a4f54c, text="jazz in kuch mehraj another claw down with kuch nahi", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:27,315 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down with kuch nahi (is_final: False)
+2024-12-02 16:40:27,624 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down with kuch nanga
+2024-12-02 16:40:27,625 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=b9984d0fdd984bf0a249162b0ade45a2, text="jazz in kuch mehraj another claw down with kuch nanga", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:27,626 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down with kuch nanga (is_final: False)
+2024-12-02 16:40:27,921 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down with kuch nahi anachi dhar
+2024-12-02 16:40:27,923 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=fd1ccd87898d4ac38da99fdcd8b0386d, text="jazz in kuch mehraj another claw down with kuch nahi anachi dhar", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:27,924 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down with kuch nahi anachi dhar (is_final: False)
+2024-12-02 16:40:28,216 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra
+2024-12-02 16:40:28,218 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=bf501fef1add42e3a313038201ce015d, text="jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:28,219 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra (is_final: False)
+2024-12-02 16:40:29,216 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal
+2024-12-02 16:40:29,217 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=f7816f5c62f0430086a5de3e914c7933, text="jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:29,217 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal (is_final: False)
+2024-12-02 16:40:29,527 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL
+2024-12-02 16:40:29,529 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=f0eee2c37a5945e4a242401dd9a77673, text="jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:29,530 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL (is_final: False)
+2024-12-02 16:40:29,916 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stadium
+2024-12-02 16:40:29,917 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=43928446da2940e9bfdd9f21c224637c, text="jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stadium", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:29,918 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stadium (is_final: False)
+2024-12-02 16:40:30,133 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant
+2024-12-02 16:40:30,134 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=1f40733865b843e9b08ac8da5286d24d, text="jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:30,135 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant (is_final: False)
+2024-12-02 16:40:30,524 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material
+2024-12-02 16:40:30,525 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=e6a4948542214605a35c10be18e62488, text="jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:30,526 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material (is_final: False)
+2024-12-02 16:40:31,130 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again
+2024-12-02 16:40:31,130 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=6db1daca19cf406487962bcc77bc3d60, text="jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:31,133 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again (is_final: False)
+2024-12-02 16:40:31,428 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea
+2024-12-02 16:40:31,429 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=249e6d185bf643a2b0f2bbfdc3a9f39e, text="jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:31,431 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea (is_final: False)
+2024-12-02 16:40:33,129 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea and sanjay
+2024-12-02 16:40:33,136 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=d282870d89344a409151da61fc31a366, text="jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea and sanjay", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:33,140 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea and sanjay (is_final: False)
+2024-12-02 16:40:35,020 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea and sanjeev
+2024-12-02 16:40:35,021 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=b3e003430074484188e5c87292d9d0db, text="jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea and sanjeev", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:35,022 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea and sanjeev (is_final: False)
+2024-12-02 16:40:35,924 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea and sanjeev again
+2024-12-02 16:40:35,925 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=1c165d029b48494c94323eb457fbf181, text="jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea and sanjeev again", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:35,926 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea and sanjeev again (is_final: False)
+2024-12-02 16:40:36,342 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea and sanjeev again just
+2024-12-02 16:40:36,343 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=184e0730d489422187e9782558bf08a8, text="jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea and sanjeev again just", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:36,344 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea and sanjeev again just (is_final: False)
+2024-12-02 16:40:36,945 [DEBUG] app1.py:1214 - Speech recognizing: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea and sanjeev again just to open
+2024-12-02 16:40:36,946 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=9c98fa8da32c440fb42a9a6435abe310, text="jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea and sanjeev again just to open", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:36,947 [DEBUG] app1.py:1104 - Sending transcription: jazz in kuch mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again chelsea and sanjeev again just to open (is_final: False)
+2024-12-02 16:40:39,760 [INFO] app1.py:1205 - Speech recognized: Jazz in kuch Mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again Chelsea and Sanjeev again just to.
+2024-12-02 16:40:39,762 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=0e57fdd56f544328a7d779d9bc9b8468, text="Jazz in kuch Mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again Chelsea and Sanjeev again just to.", reason=ResultReason.RecognizedSpeech)
+2024-12-02 16:40:39,763 [DEBUG] app1.py:1104 - Sending transcription: Jazz in kuch Mehraj another claw down with kuch nahi anachi dharmendra puriyal IPL stagnant material again Chelsea and Sanjeev again just to. (is_final: True)
+2024-12-02 16:40:40,275 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-02 16:40:40,275 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-02 16:40:42,431 [DEBUG] app1.py:1214 - Speech recognizing: hi
+2024-12-02 16:40:42,432 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=64448ba7915246d5b5fb4e8460c507fc, text="hi", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:42,433 [DEBUG] app1.py:1104 - Sending transcription: hi (is_final: False)
+2024-12-02 16:40:42,726 [DEBUG] app1.py:1214 - Speech recognizing: hi what
+2024-12-02 16:40:42,727 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=21cc3cfc6ec94e2a84679590b1f5326a, text="hi what", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:42,728 [DEBUG] app1.py:1104 - Sending transcription: hi what (is_final: False)
+2024-12-02 16:40:42,927 [DEBUG] app1.py:1214 - Speech recognizing: hi what are
+2024-12-02 16:40:42,927 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=12ae6bda2c7946039881d03fa3ff442a, text="hi what are", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:42,927 [DEBUG] app1.py:1104 - Sending transcription: hi what are (is_final: False)
+2024-12-02 16:40:43,034 [DEBUG] app1.py:1214 - Speech recognizing: hi what are you doing
+2024-12-02 16:40:43,035 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=5e8f483051184defa6388aa4af1ea3b1, text="hi what are you doing", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:43,036 [DEBUG] app1.py:1104 - Sending transcription: hi what are you doing (is_final: False)
+2024-12-02 16:40:43,629 [INFO] app1.py:1205 - Speech recognized: Hi, what are you doing?
+2024-12-02 16:40:43,630 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=37fd25cc870a4204b5c83d322c9ae4dc, text="Hi, what are you doing?", reason=ResultReason.RecognizedSpeech)
+2024-12-02 16:40:43,632 [DEBUG] app1.py:1104 - Sending transcription: Hi, what are you doing? (is_final: True)
+2024-12-02 16:40:47,133 [DEBUG] app1.py:1214 - Speech recognizing: india linda
+2024-12-02 16:40:47,133 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=2b4a5b1060f344d7b68f4154c0194756, text="india linda", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:47,134 [DEBUG] app1.py:1104 - Sending transcription: india linda (is_final: False)
+2024-12-02 16:40:48,136 [DEBUG] app1.py:1214 - Speech recognizing: india linda yakisha
+2024-12-02 16:40:48,136 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=155de003fbdc44b8bd9f4dc2e54f1d65, text="india linda yakisha", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:40:48,137 [DEBUG] app1.py:1104 - Sending transcription: india linda yakisha (is_final: False)
+2024-12-02 16:40:55,385 [INFO] app1.py:898 - Active clients: []
+2024-12-02 16:41:03,784 [INFO] app1.py:1205 - Speech recognized: 
+2024-12-02 16:41:03,785 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=8b929084a6654a62bb2395eab3373bf4, text="", reason=ResultReason.RecognizedSpeech)
+2024-12-02 16:41:03,787 [DEBUG] app1.py:1104 - Sending transcription:  (is_final: True)
+2024-12-02 16:41:06,512 [DEBUG] app1.py:1214 - Speech recognizing: oh
+2024-12-02 16:41:06,513 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=60911a37294b4891949922bb9427d235, text="oh", reason=ResultReason.RecognizingSpeech)
+2024-12-02 16:41:18,827 [INFO] app1.py:1205 - Speech recognized: 
+2024-12-02 16:41:18,827 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=cc811736aa0e43ff9be57a9cb7a21228, text="", reason=ResultReason.RecognizedSpeech)

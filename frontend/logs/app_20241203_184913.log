@@ -1,0 +1,478 @@
+2024-12-03 18:49:13,906 [INFO] app1.py:898 - Active clients: []
+2024-12-03 18:49:13,910 [INFO] app1.py:1453 - Starting Flask application
+2024-12-03 18:49:13,911 [INFO] app1.py:1456 - Starting with Waitress server on http://127.0.0.1:4585
+2024-12-03 18:49:43,911 [INFO] app1.py:898 - Active clients: []
+2024-12-03 18:50:13,914 [INFO] app1.py:898 - Active clients: []
+2024-12-03 18:50:43,917 [INFO] app1.py:898 - Active clients: []
+2024-12-03 18:51:02,601 [INFO] app1.py:1230 - Initializing speech recognition
+2024-12-03 18:51:02,614 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-03 18:51:02,619 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-03 18:51:02,967 [INFO] app1.py:1267 - Starting continuous recognition
+2024-12-03 18:51:03,150 [INFO] app1.py:1280 - Audio stream started
+2024-12-03 18:51:05,072 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-03 18:51:05,073 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=2afdf313185d4429bae61e70be78063f, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:05,075 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-03 18:51:06,176 [INFO] app1.py:1244 - Speech recognized: Hello.
+2024-12-03 18:51:06,177 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=44cdd03d4d11437889d9300c69e20ea3, text="Hello.", reason=ResultReason.RecognizedSpeech)
+2024-12-03 18:51:06,179 [DEBUG] app1.py:1104 - Sending transcription: Hello. (is_final: True)
+2024-12-03 18:51:08,246 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-03 18:51:08,248 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=75052ed610f04233a246ca96f1aee732, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:08,250 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-03 18:51:08,962 [INFO] app1.py:1244 - Speech recognized: Hello, does that happen?
+2024-12-03 18:51:08,963 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=95cf748dbf6f4abcbe617660709e58d6, text="Hello, does that happen?", reason=ResultReason.RecognizedSpeech)
+2024-12-03 18:51:08,970 [DEBUG] app1.py:1104 - Sending transcription: Hello, does that happen? (is_final: True)
+2024-12-03 18:51:09,656 [INFO] app1.py:1181 - Stopping stream processing
+2024-12-03 18:51:09,657 [INFO] app1.py:1209 - Stream stopped successfully
+2024-12-03 18:51:09,979 [INFO] app1.py:1304 - Speech recognition stopped
+2024-12-03 18:51:12,602 [INFO] app1.py:1230 - Initializing speech recognition
+2024-12-03 18:51:12,610 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-03 18:51:12,611 [INFO] app1.py:1121 - New translation stream connection for client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, language: es
+2024-12-03 18:51:12,612 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-03 18:51:12,613 [INFO] app1.py:1131 - Creating new client connection: 6869eb91-4792-44cd-94bb-02c86eedc7b7
+2024-12-03 18:51:12,729 [INFO] app1.py:1267 - Starting continuous recognition
+2024-12-03 18:51:12,822 [INFO] app1.py:1280 - Audio stream started
+2024-12-03 18:51:13,919 [INFO] app1.py:898 - Active clients: ['6869eb91-4792-44cd-94bb-02c86eedc7b7']
+2024-12-03 18:51:14,207 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-03 18:51:14,208 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=b222a1b93b4c41ada9e19a491790df34, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:14,211 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-03 18:51:14,264 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:51:14,266 [DEBUG] app1.py:1031 - Received translation request - Text: 'hello', Target: es, Client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, Final: False
+2024-12-03 18:51:14,268 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:51:15,065 [INFO] app1.py:1244 - Speech recognized: Hello.
+2024-12-03 18:51:15,067 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=8b757543fbc144af91c053806a62ade3, text="Hello.", reason=ResultReason.RecognizedSpeech)
+2024-12-03 18:51:15,068 [DEBUG] app1.py:1104 - Sending transcription: Hello. (is_final: True)
+2024-12-03 18:51:15,078 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:51:15,083 [DEBUG] app1.py:1031 - Received translation request - Text: 'Hello.', Target: es, Client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, Final: True
+2024-12-03 18:51:15,085 [DEBUG] app1.py:1042 - Normalized text: 'hello.'
+2024-12-03 18:51:15,086 [DEBUG] app1.py:1056 - Checking cache with key: hello.:es
+2024-12-03 18:51:15,087 [DEBUG] app1.py:1071 - No cache hit, proceeding with translation
+2024-12-03 18:51:15,087 [INFO] app1.py:933 - Starting translation request - Text: 'hello.', Target language: es
+2024-12-03 18:51:15,108 [DEBUG] app1.py:962 - Making API request to https://api.cognitive.microsofttranslator.com/translate
+2024-12-03 18:51:15,110 [DEBUG] app1.py:963 - Request params: {'api-version': '3.0', 'to': 'es'}
+2024-12-03 18:51:15,111 [DEBUG] app1.py:964 - Request body: [{'text': 'hello.'}]
+2024-12-03 18:51:16,461 [DEBUG] app1.py:967 - Response status: 200
+2024-12-03 18:51:16,463 [DEBUG] app1.py:971 - Raw API response: [{'detectedLanguage': {'language': 'en', 'score': 1.0}, 'translations': [{'text': 'Hola.', 'to': 'es'}]}]
+2024-12-03 18:51:16,464 [DEBUG] app1.py:974 - Extracted translation: Hola.
+2024-12-03 18:51:16,464 [INFO] app1.py:975 - Translation completed successfully - Original: 'hello.' -> Translation: 'Hola.' (es)
+2024-12-03 18:51:16,466 [DEBUG] app1.py:918 - Sending translation to client 6869eb91-4792-44cd-94bb-02c86eedc7b7: Hola.
+2024-12-03 18:51:16,467 [DEBUG] app1.py:925 - Translation sent successfully to client 6869eb91-4792-44cd-94bb-02c86eedc7b7
+2024-12-03 18:51:16,467 [DEBUG] app1.py:1144 - Sending message to client 6869eb91-4792-44cd-94bb-02c86eedc7b7: {'type': 'final', 'translation': 'Hola.'}
+2024-12-03 18:51:16,475 [INFO] app1.py:1325 - Speech synthesis requested - Text: 'Hola.', Language: es
+2024-12-03 18:51:16,479 [DEBUG] app1.py:1346 - Created temporary file: C:\Users\RAHULR~1\AppData\Local\Temp\speech_adfa4dd6-07b8-418c-bb02-64f8b5efa854.wav
+2024-12-03 18:51:16,495 [DEBUG] app1.py:1355 - Starting speech synthesis
+2024-12-03 18:51:17,836 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-03 18:51:17,837 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=6d993015933542b3895f711ceb5522b4, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:17,839 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-03 18:51:17,843 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:51:17,844 [DEBUG] app1.py:1031 - Received translation request - Text: 'hello', Target: es, Client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, Final: False
+2024-12-03 18:51:17,846 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:51:18,088 [INFO] app1.py:1368 - Speech synthesis completed successfully
+2024-12-03 18:51:18,090 [DEBUG] app1.py:1392 - Cleaning up temporary file: C:\Users\RAHULR~1\AppData\Local\Temp\speech_adfa4dd6-07b8-418c-bb02-64f8b5efa854.wav
+2024-12-03 18:51:18,760 [INFO] app1.py:1244 - Speech recognized: Hello.
+2024-12-03 18:51:18,760 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=7bdac27ae3b64e9b823ea98dda2ba0d9, text="Hello.", reason=ResultReason.RecognizedSpeech)
+2024-12-03 18:51:18,761 [DEBUG] app1.py:1104 - Sending transcription: Hello. (is_final: True)
+2024-12-03 18:51:18,767 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:51:18,768 [DEBUG] app1.py:1031 - Received translation request - Text: 'Hello.', Target: es, Client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, Final: True
+2024-12-03 18:51:18,768 [DEBUG] app1.py:1042 - Normalized text: 'hello.'
+2024-12-03 18:51:18,769 [DEBUG] app1.py:1048 - Time since last translation for 6869eb91-4792-44cd-94bb-02c86eedc7b7:es: 3.683311700820923s
+2024-12-03 18:51:18,770 [DEBUG] app1.py:1056 - Checking cache with key: hello.:es
+2024-12-03 18:51:18,770 [DEBUG] app1.py:1059 - Translation found in recent cache
+2024-12-03 18:51:18,770 [DEBUG] app1.py:918 - Sending translation to client 6869eb91-4792-44cd-94bb-02c86eedc7b7: Hola.
+2024-12-03 18:51:18,772 [DEBUG] app1.py:925 - Translation sent successfully to client 6869eb91-4792-44cd-94bb-02c86eedc7b7
+2024-12-03 18:51:18,772 [DEBUG] app1.py:1144 - Sending message to client 6869eb91-4792-44cd-94bb-02c86eedc7b7: {'type': 'final', 'translation': 'Hola.'}
+2024-12-03 18:51:21,143 [DEBUG] app1.py:1254 - Speech recognizing: can you
+2024-12-03 18:51:21,144 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=7e2151efa30c417782c36e8785a382cf, text="can you", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:21,146 [DEBUG] app1.py:1104 - Sending transcription: can you (is_final: False)
+2024-12-03 18:51:21,153 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:51:21,154 [DEBUG] app1.py:1031 - Received translation request - Text: 'can you', Target: es, Client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, Final: False
+2024-12-03 18:51:21,156 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:51:21,416 [DEBUG] app1.py:1254 - Speech recognizing: can you hear my voice
+2024-12-03 18:51:21,417 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=c237b8c2f35541a6be215c9f1267ca10, text="can you hear my voice", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:21,419 [DEBUG] app1.py:1104 - Sending transcription: can you hear my voice (is_final: False)
+2024-12-03 18:51:21,427 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:51:21,431 [DEBUG] app1.py:1031 - Received translation request - Text: 'can you hear my voice', Target: es, Client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, Final: False
+2024-12-03 18:51:21,433 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:51:22,817 [INFO] app1.py:1244 - Speech recognized: Can you hear my voice?
+2024-12-03 18:51:22,818 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=7de5e6b87ab046a98b55cb8d8b3ae894, text="Can you hear my voice?", reason=ResultReason.RecognizedSpeech)
+2024-12-03 18:51:22,820 [DEBUG] app1.py:1104 - Sending transcription: Can you hear my voice? (is_final: True)
+2024-12-03 18:51:22,831 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:51:22,832 [DEBUG] app1.py:1031 - Received translation request - Text: 'Can you hear my voice?', Target: es, Client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, Final: True
+2024-12-03 18:51:22,836 [DEBUG] app1.py:1042 - Normalized text: 'can you hear my voice?'
+2024-12-03 18:51:22,837 [DEBUG] app1.py:1048 - Time since last translation for 6869eb91-4792-44cd-94bb-02c86eedc7b7:es: 4.067681074142456s
+2024-12-03 18:51:22,838 [DEBUG] app1.py:1056 - Checking cache with key: can you hear my voice?:es
+2024-12-03 18:51:22,839 [DEBUG] app1.py:1071 - No cache hit, proceeding with translation
+2024-12-03 18:51:22,842 [INFO] app1.py:933 - Starting translation request - Text: 'can you hear my voice?', Target language: es
+2024-12-03 18:51:22,849 [DEBUG] app1.py:962 - Making API request to https://api.cognitive.microsofttranslator.com/translate
+2024-12-03 18:51:22,851 [DEBUG] app1.py:963 - Request params: {'api-version': '3.0', 'to': 'es'}
+2024-12-03 18:51:22,852 [DEBUG] app1.py:964 - Request body: [{'text': 'can you hear my voice?'}]
+2024-12-03 18:51:24,126 [DEBUG] app1.py:967 - Response status: 200
+2024-12-03 18:51:24,127 [DEBUG] app1.py:971 - Raw API response: [{'detectedLanguage': {'language': 'en', 'score': 1.0}, 'translations': [{'text': '¿Puedes oír mi voz?', 'to': 'es'}]}]
+2024-12-03 18:51:24,129 [DEBUG] app1.py:974 - Extracted translation: ¿Puedes oír mi voz?
+2024-12-03 18:51:24,130 [INFO] app1.py:975 - Translation completed successfully - Original: 'can you hear my voice?' -> Translation: '¿Puedes oír mi voz?' (es)
+2024-12-03 18:51:24,135 [DEBUG] app1.py:918 - Sending translation to client 6869eb91-4792-44cd-94bb-02c86eedc7b7: ¿Puedes oír mi voz?
+2024-12-03 18:51:24,137 [DEBUG] app1.py:925 - Translation sent successfully to client 6869eb91-4792-44cd-94bb-02c86eedc7b7
+2024-12-03 18:51:24,137 [DEBUG] app1.py:1144 - Sending message to client 6869eb91-4792-44cd-94bb-02c86eedc7b7: {'type': 'final', 'translation': '¿Puedes oír mi voz?'}
+2024-12-03 18:51:24,156 [INFO] app1.py:1325 - Speech synthesis requested - Text: '¿Puedes oír mi voz?', Language: es
+2024-12-03 18:51:24,158 [DEBUG] app1.py:1346 - Created temporary file: C:\Users\RAHULR~1\AppData\Local\Temp\speech_83da4415-a4a7-4d38-9600-2fda6de95ad1.wav
+2024-12-03 18:51:24,162 [DEBUG] app1.py:1355 - Starting speech synthesis
+2024-12-03 18:51:25,066 [INFO] app1.py:1368 - Speech synthesis completed successfully
+2024-12-03 18:51:25,068 [DEBUG] app1.py:1392 - Cleaning up temporary file: C:\Users\RAHULR~1\AppData\Local\Temp\speech_83da4415-a4a7-4d38-9600-2fda6de95ad1.wav
+2024-12-03 18:51:28,794 [DEBUG] app1.py:1254 - Speech recognizing: past
+2024-12-03 18:51:28,795 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=52a892b721fd4f05ac89ccab3897fb51, text="past", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:28,796 [DEBUG] app1.py:1104 - Sending transcription: past (is_final: False)
+2024-12-03 18:51:28,805 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:51:28,807 [DEBUG] app1.py:1031 - Received translation request - Text: 'past', Target: es, Client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, Final: False
+2024-12-03 18:51:28,809 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:51:28,994 [DEBUG] app1.py:1254 - Speech recognizing: pasta
+2024-12-03 18:51:28,996 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=7b3134672892474c8b3a49a671aab27a, text="pasta", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:28,998 [DEBUG] app1.py:1104 - Sending transcription: pasta (is_final: False)
+2024-12-03 18:51:29,006 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:51:29,011 [DEBUG] app1.py:1031 - Received translation request - Text: 'pasta', Target: es, Client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, Final: False
+2024-12-03 18:51:29,013 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:51:29,089 [DEBUG] app1.py:1254 - Speech recognizing: pasta india
+2024-12-03 18:51:29,090 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=acfda7fa687f499ebdd380222383e0ad, text="pasta india", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:29,091 [DEBUG] app1.py:1104 - Sending transcription: pasta india (is_final: False)
+2024-12-03 18:51:29,097 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:51:29,101 [DEBUG] app1.py:1031 - Received translation request - Text: 'pasta india', Target: es, Client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, Final: False
+2024-12-03 18:51:29,103 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:51:29,292 [DEBUG] app1.py:1254 - Speech recognizing: pasta india zol
+2024-12-03 18:51:29,294 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=46db7392fa85443cab9f748d156d97e7, text="pasta india zol", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:29,296 [DEBUG] app1.py:1104 - Sending transcription: pasta india zol (is_final: False)
+2024-12-03 18:51:29,305 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:51:29,354 [DEBUG] app1.py:1031 - Received translation request - Text: 'pasta india zol', Target: es, Client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, Final: False
+2024-12-03 18:51:29,362 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:51:29,398 [DEBUG] app1.py:1254 - Speech recognizing: pasta india zola rakhna
+2024-12-03 18:51:29,399 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=abca4e0e23df479c812a7dced3efed8d, text="pasta india zola rakhna", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:29,411 [DEBUG] app1.py:1104 - Sending transcription: pasta india zola rakhna (is_final: False)
+2024-12-03 18:51:29,469 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:51:29,469 [DEBUG] app1.py:1031 - Received translation request - Text: 'pasta india zola rakhna', Target: es, Client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, Final: False
+2024-12-03 18:51:29,470 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:51:29,696 [DEBUG] app1.py:1254 - Speech recognizing: pasta india zola rakhnavis in
+2024-12-03 18:51:29,697 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=2027b357a5bc4e85bd743b1802be6a58, text="pasta india zola rakhnavis in", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:29,698 [DEBUG] app1.py:1104 - Sending transcription: pasta india zola rakhnavis in (is_final: False)
+2024-12-03 18:51:29,707 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:51:29,710 [DEBUG] app1.py:1031 - Received translation request - Text: 'pasta india zola rakhnavis in', Target: es, Client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, Final: False
+2024-12-03 18:51:29,712 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:51:29,898 [DEBUG] app1.py:1254 - Speech recognizing: pasta india zola rakhnavis in ghul
+2024-12-03 18:51:29,899 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=afb27e6798344fb8b85b9d3351b8fbbc, text="pasta india zola rakhnavis in ghul", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:29,901 [DEBUG] app1.py:1104 - Sending transcription: pasta india zola rakhnavis in ghul (is_final: False)
+2024-12-03 18:51:29,914 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:51:29,918 [DEBUG] app1.py:1031 - Received translation request - Text: 'pasta india zola rakhnavis in ghul', Target: es, Client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, Final: False
+2024-12-03 18:51:29,920 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:51:29,991 [DEBUG] app1.py:1254 - Speech recognizing: pasta india zola rakhnavis in ghulam
+2024-12-03 18:51:29,993 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=955204cd19f54fbdb72aa579764ea226, text="pasta india zola rakhnavis in ghulam", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:29,995 [DEBUG] app1.py:1104 - Sending transcription: pasta india zola rakhnavis in ghulam (is_final: False)
+2024-12-03 18:51:30,003 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:51:30,009 [DEBUG] app1.py:1031 - Received translation request - Text: 'pasta india zola rakhnavis in ghulam', Target: es, Client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, Final: False
+2024-12-03 18:51:30,018 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:51:31,004 [DEBUG] app1.py:1254 - Speech recognizing: pasta india zola rakhnavis in ghulami
+2024-12-03 18:51:31,005 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=a5d4b1f87ea242bd8718464627500286, text="pasta india zola rakhnavis in ghulami", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:31,007 [DEBUG] app1.py:1104 - Sending transcription: pasta india zola rakhnavis in ghulami (is_final: False)
+2024-12-03 18:51:31,019 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:51:31,023 [DEBUG] app1.py:1031 - Received translation request - Text: 'pasta india zola rakhnavis in ghulami', Target: es, Client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, Final: False
+2024-12-03 18:51:31,026 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:51:31,903 [DEBUG] app1.py:1254 - Speech recognizing: pasta india zola rakhnavis in ghulami gorakhpur
+2024-12-03 18:51:31,905 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=b5d6b130b50743d6863f783352743373, text="pasta india zola rakhnavis in ghulami gorakhpur", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:31,907 [DEBUG] app1.py:1104 - Sending transcription: pasta india zola rakhnavis in ghulami gorakhpur (is_final: False)
+2024-12-03 18:51:31,917 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:51:31,918 [DEBUG] app1.py:1031 - Received translation request - Text: 'pasta india zola rakhnavis in ghulami gorakhpur', Target: es, Client: 6869eb91-4792-44cd-94bb-02c86eedc7b7, Final: False
+2024-12-03 18:51:31,920 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:51:33,768 [INFO] app1.py:1244 - Speech recognized: Pasta India. Zola Rakhnavis in Ghulami, Gorakhpur.
+2024-12-03 18:51:33,770 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=0d9208bb94da43be9af605f7985553c7, text="Pasta India. Zola Rakhnavis in Ghulami, Gorakhpur.", reason=ResultReason.RecognizedSpeech)
+2024-12-03 18:51:33,772 [DEBUG] app1.py:1104 - Sending transcription: Pasta India. Zola Rakhnavis in Ghulami, Gorakhpur. (is_final: True)
+2024-12-03 18:51:41,210 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-03 18:51:41,211 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-03 18:51:43,920 [INFO] app1.py:898 - Active clients: ['6869eb91-4792-44cd-94bb-02c86eedc7b7']
+2024-12-03 18:51:45,030 [INFO] app1.py:1181 - Stopping stream processing
+2024-12-03 18:51:45,035 [INFO] app1.py:1209 - Stream stopped successfully
+2024-12-03 18:51:45,315 [INFO] app1.py:1304 - Speech recognition stopped
+2024-12-03 18:51:51,019 [INFO] app1.py:1230 - Initializing speech recognition
+2024-12-03 18:51:51,131 [INFO] app1.py:1267 - Starting continuous recognition
+2024-12-03 18:51:51,228 [INFO] app1.py:1280 - Audio stream started
+2024-12-03 18:51:53,187 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-03 18:51:53,188 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=3b6cb76861434200a10a88386f97cf8a, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:53,190 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-03 18:51:54,010 [INFO] app1.py:1244 - Speech recognized: Hello.
+2024-12-03 18:51:54,012 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=8767f2771eb4489a98ad0098ad2fb73d, text="Hello.", reason=ResultReason.RecognizedSpeech)
+2024-12-03 18:51:54,013 [DEBUG] app1.py:1104 - Sending transcription: Hello. (is_final: True)
+2024-12-03 18:51:54,880 [DEBUG] app1.py:1254 - Speech recognizing: how are you
+2024-12-03 18:51:54,881 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=25384a1214494f25b15d7669bb79b36b, text="how are you", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:51:54,884 [DEBUG] app1.py:1104 - Sending transcription: how are you (is_final: False)
+2024-12-03 18:51:55,295 [INFO] app1.py:1181 - Stopping stream processing
+2024-12-03 18:51:55,296 [INFO] app1.py:1209 - Stream stopped successfully
+2024-12-03 18:51:55,578 [INFO] app1.py:1304 - Speech recognition stopped
+2024-12-03 18:51:59,824 [INFO] app1.py:1181 - Stopping stream processing
+2024-12-03 18:51:59,825 [INFO] app1.py:1209 - Stream stopped successfully
+2024-12-03 18:52:02,816 [INFO] app1.py:1230 - Initializing speech recognition
+2024-12-03 18:52:02,824 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-03 18:52:02,824 [INFO] app1.py:1121 - New translation stream connection for client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, language: es
+2024-12-03 18:52:02,893 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-03 18:52:02,944 [INFO] app1.py:1131 - Creating new client connection: 1321d722-c3f3-4afc-860a-291fb2b60b8e
+2024-12-03 18:52:03,058 [INFO] app1.py:1267 - Starting continuous recognition
+2024-12-03 18:52:03,146 [INFO] app1.py:1280 - Audio stream started
+2024-12-03 18:52:06,222 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-03 18:52:06,224 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=df0a3ec7082c4a7bbf2b5f2e06a56cb3, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:52:06,225 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-03 18:52:06,238 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:52:06,239 [DEBUG] app1.py:1031 - Received translation request - Text: 'hello', Target: es, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: False
+2024-12-03 18:52:06,241 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:52:06,830 [INFO] app1.py:1244 - Speech recognized: Hello.
+2024-12-03 18:52:06,831 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=45877f65b35340a9b454dca3ae6fb07c, text="Hello.", reason=ResultReason.RecognizedSpeech)
+2024-12-03 18:52:06,833 [DEBUG] app1.py:1104 - Sending transcription: Hello. (is_final: True)
+2024-12-03 18:52:06,839 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:52:06,840 [DEBUG] app1.py:1031 - Received translation request - Text: 'Hello.', Target: es, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: True
+2024-12-03 18:52:06,841 [DEBUG] app1.py:1042 - Normalized text: 'hello.'
+2024-12-03 18:52:06,842 [DEBUG] app1.py:1056 - Checking cache with key: hello.:es
+2024-12-03 18:52:06,843 [DEBUG] app1.py:1059 - Translation found in recent cache
+2024-12-03 18:52:06,844 [DEBUG] app1.py:918 - Sending translation to client 1321d722-c3f3-4afc-860a-291fb2b60b8e: Hola.
+2024-12-03 18:52:06,844 [DEBUG] app1.py:925 - Translation sent successfully to client 1321d722-c3f3-4afc-860a-291fb2b60b8e
+2024-12-03 18:52:06,845 [DEBUG] app1.py:1144 - Sending message to client 1321d722-c3f3-4afc-860a-291fb2b60b8e: {'type': 'final', 'translation': 'Hola.'}
+2024-12-03 18:52:06,854 [INFO] app1.py:1325 - Speech synthesis requested - Text: 'Hola.', Language: es
+2024-12-03 18:52:06,860 [DEBUG] app1.py:1346 - Created temporary file: C:\Users\RAHULR~1\AppData\Local\Temp\speech_08a2f853-b826-456f-b421-8eeb2a86809a.wav
+2024-12-03 18:52:06,863 [DEBUG] app1.py:1355 - Starting speech synthesis
+2024-12-03 18:52:08,825 [INFO] app1.py:1368 - Speech synthesis completed successfully
+2024-12-03 18:52:08,826 [DEBUG] app1.py:1392 - Cleaning up temporary file: C:\Users\RAHULR~1\AppData\Local\Temp\speech_08a2f853-b826-456f-b421-8eeb2a86809a.wav
+2024-12-03 18:52:09,202 [DEBUG] app1.py:1254 - Speech recognizing: hi
+2024-12-03 18:52:09,203 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=7387d6e5828e43839ee85771f5d3ec8d, text="hi", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:52:09,205 [DEBUG] app1.py:1104 - Sending transcription: hi (is_final: False)
+2024-12-03 18:52:09,212 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:52:09,214 [DEBUG] app1.py:1031 - Received translation request - Text: 'hi', Target: es, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: False
+2024-12-03 18:52:09,218 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:52:10,508 [INFO] app1.py:1244 - Speech recognized: Hi.
+2024-12-03 18:52:10,510 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=23bd9e3ab46e400f9fa30e233005569f, text="Hi.", reason=ResultReason.RecognizedSpeech)
+2024-12-03 18:52:10,512 [DEBUG] app1.py:1104 - Sending transcription: Hi. (is_final: True)
+2024-12-03 18:52:10,528 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:52:10,529 [DEBUG] app1.py:1031 - Received translation request - Text: 'Hi.', Target: es, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: True
+2024-12-03 18:52:10,531 [DEBUG] app1.py:1042 - Normalized text: 'hi.'
+2024-12-03 18:52:10,536 [DEBUG] app1.py:1048 - Time since last translation for 1321d722-c3f3-4afc-860a-291fb2b60b8e:es: 3.6934216022491455s
+2024-12-03 18:52:10,537 [DEBUG] app1.py:1056 - Checking cache with key: hi.:es
+2024-12-03 18:52:10,537 [DEBUG] app1.py:1071 - No cache hit, proceeding with translation
+2024-12-03 18:52:10,538 [INFO] app1.py:933 - Starting translation request - Text: 'hi.', Target language: es
+2024-12-03 18:52:10,539 [DEBUG] app1.py:962 - Making API request to https://api.cognitive.microsofttranslator.com/translate
+2024-12-03 18:52:10,544 [INFO] app1.py:1181 - Stopping stream processing
+2024-12-03 18:52:10,546 [DEBUG] app1.py:963 - Request params: {'api-version': '3.0', 'to': 'es'}
+2024-12-03 18:52:10,546 [INFO] app1.py:1209 - Stream stopped successfully
+2024-12-03 18:52:10,547 [DEBUG] app1.py:1144 - Sending message to client 1321d722-c3f3-4afc-860a-291fb2b60b8e: {'type': 'final', 'translation': ''}
+2024-12-03 18:52:10,547 [DEBUG] app1.py:964 - Request body: [{'text': 'hi.'}]
+2024-12-03 18:52:10,756 [INFO] app1.py:1304 - Speech recognition stopped
+2024-12-03 18:52:11,853 [DEBUG] app1.py:967 - Response status: 200
+2024-12-03 18:52:11,853 [DEBUG] app1.py:971 - Raw API response: [{'detectedLanguage': {'language': 'en', 'score': 1.0}, 'translations': [{'text': 'hola.', 'to': 'es'}]}]
+2024-12-03 18:52:11,855 [DEBUG] app1.py:974 - Extracted translation: hola.
+2024-12-03 18:52:11,856 [INFO] app1.py:975 - Translation completed successfully - Original: 'hi.' -> Translation: 'hola.' (es)
+2024-12-03 18:52:11,859 [DEBUG] app1.py:918 - Sending translation to client 1321d722-c3f3-4afc-860a-291fb2b60b8e: hola.
+2024-12-03 18:52:11,859 [DEBUG] app1.py:925 - Translation sent successfully to client 1321d722-c3f3-4afc-860a-291fb2b60b8e
+2024-12-03 18:52:11,861 [DEBUG] app1.py:1144 - Sending message to client 1321d722-c3f3-4afc-860a-291fb2b60b8e: {'type': 'final', 'translation': 'hola.'}
+2024-12-03 18:52:11,864 [INFO] app1.py:1152 - Client 1321d722-c3f3-4afc-860a-291fb2b60b8e disconnected
+2024-12-03 18:52:13,923 [INFO] app1.py:898 - Active clients: ['6869eb91-4792-44cd-94bb-02c86eedc7b7']
+2024-12-03 18:52:43,924 [INFO] app1.py:898 - Active clients: ['6869eb91-4792-44cd-94bb-02c86eedc7b7']
+2024-12-03 18:53:13,926 [INFO] app1.py:898 - Active clients: ['6869eb91-4792-44cd-94bb-02c86eedc7b7']
+2024-12-03 18:53:43,928 [INFO] app1.py:898 - Active clients: ['6869eb91-4792-44cd-94bb-02c86eedc7b7']
+2024-12-03 18:53:55,841 [INFO] app1.py:1230 - Initializing speech recognition
+2024-12-03 18:53:56,035 [INFO] app1.py:1267 - Starting continuous recognition
+2024-12-03 18:53:56,196 [INFO] app1.py:1280 - Audio stream started
+2024-12-03 18:53:57,878 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-03 18:53:57,879 [INFO] app1.py:1121 - New translation stream connection for client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, language: es
+2024-12-03 18:53:57,881 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-03 18:53:57,882 [INFO] app1.py:1131 - Creating new client connection: 1321d722-c3f3-4afc-860a-291fb2b60b8e
+2024-12-03 18:54:01,590 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-03 18:54:01,591 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=2841963d9d2d4883a86329738046d4c1, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:01,594 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-03 18:54:01,608 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:54:01,610 [DEBUG] app1.py:1031 - Received translation request - Text: 'hello', Target: es, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: False
+2024-12-03 18:54:01,613 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:54:01,890 [DEBUG] app1.py:1254 - Speech recognizing: hello how are you
+2024-12-03 18:54:01,892 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=5d1728b91e014894915283379d49c564, text="hello how are you", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:01,894 [DEBUG] app1.py:1104 - Sending transcription: hello how are you (is_final: False)
+2024-12-03 18:54:01,912 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:54:01,926 [DEBUG] app1.py:1031 - Received translation request - Text: 'hello how are you', Target: es, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: False
+2024-12-03 18:54:01,932 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:54:02,490 [DEBUG] app1.py:1254 - Speech recognizing: hello how are you what
+2024-12-03 18:54:02,492 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=b561141ead4b4029b848d9574a0c2da3, text="hello how are you what", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:02,496 [DEBUG] app1.py:1104 - Sending transcription: hello how are you what (is_final: False)
+2024-12-03 18:54:02,531 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:54:02,545 [DEBUG] app1.py:1031 - Received translation request - Text: 'hello how are you what', Target: es, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: False
+2024-12-03 18:54:02,548 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:54:02,893 [DEBUG] app1.py:1254 - Speech recognizing: hello how are you what are you doing
+2024-12-03 18:54:02,894 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=2a4299a48fb144329fc545c48bf40797, text="hello how are you what are you doing", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:02,896 [DEBUG] app1.py:1104 - Sending transcription: hello how are you what are you doing (is_final: False)
+2024-12-03 18:54:02,905 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:54:02,909 [DEBUG] app1.py:1031 - Received translation request - Text: 'hello how are you what are you doing', Target: es, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: False
+2024-12-03 18:54:02,959 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:54:03,913 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-03 18:54:03,914 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-03 18:54:03,917 [INFO] app1.py:1244 - Speech recognized: Hello, how are you? What are you doing?
+2024-12-03 18:54:03,918 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=e0049aa2f52d484da2a6edc915b6a596, text="Hello, how are you? What are you doing?", reason=ResultReason.RecognizedSpeech)
+2024-12-03 18:54:03,920 [DEBUG] app1.py:1104 - Sending transcription: Hello, how are you? What are you doing? (is_final: True)
+2024-12-03 18:54:03,927 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:54:03,928 [DEBUG] app1.py:1031 - Received translation request - Text: 'Hello, how are you? What are you doing?', Target: es, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: True
+2024-12-03 18:54:03,929 [DEBUG] app1.py:1042 - Normalized text: 'hello, how are you? what are you doing?'
+2024-12-03 18:54:03,930 [DEBUG] app1.py:1048 - Time since last translation for 1321d722-c3f3-4afc-860a-291fb2b60b8e:es: 113.39408326148987s
+2024-12-03 18:54:03,931 [DEBUG] app1.py:1056 - Checking cache with key: hello, how are you? what are you doing?:es
+2024-12-03 18:54:03,932 [DEBUG] app1.py:1071 - No cache hit, proceeding with translation
+2024-12-03 18:54:03,932 [INFO] app1.py:933 - Starting translation request - Text: 'hello, how are you? what are you doing?', Target language: es
+2024-12-03 18:54:03,933 [DEBUG] app1.py:962 - Making API request to https://api.cognitive.microsofttranslator.com/translate
+2024-12-03 18:54:03,933 [DEBUG] app1.py:963 - Request params: {'api-version': '3.0', 'to': 'es'}
+2024-12-03 18:54:03,934 [DEBUG] app1.py:964 - Request body: [{'text': 'hello, how are you? what are you doing?'}]
+2024-12-03 18:54:04,452 [DEBUG] app1.py:967 - Response status: 200
+2024-12-03 18:54:04,453 [DEBUG] app1.py:971 - Raw API response: [{'detectedLanguage': {'language': 'en', 'score': 1.0}, 'translations': [{'text': '¿Hola cómo estás? ¿Qué estás haciendo?', 'to': 'es'}]}]
+2024-12-03 18:54:04,455 [DEBUG] app1.py:974 - Extracted translation: ¿Hola cómo estás? ¿Qué estás haciendo?
+2024-12-03 18:54:04,456 [INFO] app1.py:975 - Translation completed successfully - Original: 'hello, how are you? what are you doing?' -> Translation: '¿Hola cómo estás? ¿Qué estás haciendo?' (es)
+2024-12-03 18:54:04,458 [DEBUG] app1.py:918 - Sending translation to client 1321d722-c3f3-4afc-860a-291fb2b60b8e: ¿Hola cómo estás? ¿Qué estás haciendo?
+2024-12-03 18:54:04,460 [DEBUG] app1.py:925 - Translation sent successfully to client 1321d722-c3f3-4afc-860a-291fb2b60b8e
+2024-12-03 18:54:04,462 [DEBUG] app1.py:1144 - Sending message to client 1321d722-c3f3-4afc-860a-291fb2b60b8e: {'type': 'final', 'translation': '¿Hola cómo estás? ¿Qué estás haciendo?'}
+2024-12-03 18:54:04,485 [INFO] app1.py:1325 - Speech synthesis requested - Text: '¿Hola cómo estás? ¿Qué estás haciendo?', Language: es
+2024-12-03 18:54:04,513 [DEBUG] app1.py:1346 - Created temporary file: C:\Users\RAHULR~1\AppData\Local\Temp\speech_7052f29e-cf09-4ebc-b3da-9c6351a6121b.wav
+2024-12-03 18:54:04,529 [DEBUG] app1.py:1355 - Starting speech synthesis
+2024-12-03 18:54:05,595 [INFO] app1.py:1368 - Speech synthesis completed successfully
+2024-12-03 18:54:05,595 [DEBUG] app1.py:1392 - Cleaning up temporary file: C:\Users\RAHULR~1\AppData\Local\Temp\speech_7052f29e-cf09-4ebc-b3da-9c6351a6121b.wav
+2024-12-03 18:54:07,385 [DEBUG] app1.py:1254 - Speech recognizing: hola como estas
+2024-12-03 18:54:07,386 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=c776550a001e484f9b46048aad5ad4be, text="hola como estas", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:07,390 [DEBUG] app1.py:1104 - Sending transcription: hola como estas (is_final: False)
+2024-12-03 18:54:07,410 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:54:07,412 [DEBUG] app1.py:1031 - Received translation request - Text: 'hola como estas', Target: es, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: False
+2024-12-03 18:54:07,413 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:54:09,229 [INFO] app1.py:1244 - Speech recognized: Hola como estas.
+2024-12-03 18:54:09,230 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=a76a4c25190f436982a08e1f17a5d2aa, text="Hola como estas.", reason=ResultReason.RecognizedSpeech)
+2024-12-03 18:54:09,231 [DEBUG] app1.py:1104 - Sending transcription: Hola como estas. (is_final: True)
+2024-12-03 18:54:09,241 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:54:09,243 [DEBUG] app1.py:1031 - Received translation request - Text: 'Hola como estas.', Target: es, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: True
+2024-12-03 18:54:09,254 [DEBUG] app1.py:1042 - Normalized text: 'hola como estas.'
+2024-12-03 18:54:09,261 [DEBUG] app1.py:1048 - Time since last translation for 1321d722-c3f3-4afc-860a-291fb2b60b8e:es: 5.330732107162476s
+2024-12-03 18:54:09,262 [DEBUG] app1.py:1056 - Checking cache with key: hola como estas.:es
+2024-12-03 18:54:09,263 [DEBUG] app1.py:1071 - No cache hit, proceeding with translation
+2024-12-03 18:54:09,263 [INFO] app1.py:933 - Starting translation request - Text: 'hola como estas.', Target language: es
+2024-12-03 18:54:09,264 [DEBUG] app1.py:962 - Making API request to https://api.cognitive.microsofttranslator.com/translate
+2024-12-03 18:54:09,264 [DEBUG] app1.py:963 - Request params: {'api-version': '3.0', 'to': 'es'}
+2024-12-03 18:54:09,265 [DEBUG] app1.py:964 - Request body: [{'text': 'hola como estas.'}]
+2024-12-03 18:54:10,430 [INFO] app1.py:1181 - Stopping stream processing
+2024-12-03 18:54:10,431 [INFO] app1.py:1209 - Stream stopped successfully
+2024-12-03 18:54:10,432 [DEBUG] app1.py:1144 - Sending message to client 1321d722-c3f3-4afc-860a-291fb2b60b8e: {'type': 'final', 'translation': ''}
+2024-12-03 18:54:10,499 [DEBUG] app1.py:967 - Response status: 200
+2024-12-03 18:54:10,505 [DEBUG] app1.py:971 - Raw API response: [{'detectedLanguage': {'language': 'es', 'score': 1.0}, 'translations': [{'text': 'hola como estas.', 'to': 'es'}]}]
+2024-12-03 18:54:10,505 [DEBUG] app1.py:974 - Extracted translation: hola como estas.
+2024-12-03 18:54:10,507 [INFO] app1.py:975 - Translation completed successfully - Original: 'hola como estas.' -> Translation: 'hola como estas.' (es)
+2024-12-03 18:54:10,509 [DEBUG] app1.py:918 - Sending translation to client 1321d722-c3f3-4afc-860a-291fb2b60b8e: hola como estas.
+2024-12-03 18:54:10,510 [DEBUG] app1.py:925 - Translation sent successfully to client 1321d722-c3f3-4afc-860a-291fb2b60b8e
+2024-12-03 18:54:10,512 [DEBUG] app1.py:1144 - Sending message to client 1321d722-c3f3-4afc-860a-291fb2b60b8e: {'type': 'final', 'translation': 'hola como estas.'}
+2024-12-03 18:54:10,693 [INFO] app1.py:1304 - Speech recognition stopped
+2024-12-03 18:54:13,443 [INFO] app1.py:1230 - Initializing speech recognition
+2024-12-03 18:54:13,458 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-03 18:54:13,459 [INFO] app1.py:1121 - New translation stream connection for client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, language: pt
+2024-12-03 18:54:13,480 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-03 18:54:13,559 [INFO] app1.py:1267 - Starting continuous recognition
+2024-12-03 18:54:13,644 [INFO] app1.py:1280 - Audio stream started
+2024-12-03 18:54:13,930 [INFO] app1.py:898 - Active clients: ['6869eb91-4792-44cd-94bb-02c86eedc7b7', '1321d722-c3f3-4afc-860a-291fb2b60b8e']
+2024-12-03 18:54:15,013 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-03 18:54:15,014 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=12d5df37a02944fc9b541d59595a65eb, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:15,015 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-03 18:54:15,025 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:54:15,031 [DEBUG] app1.py:1031 - Received translation request - Text: 'hello', Target: pt, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: False
+2024-12-03 18:54:15,037 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:54:15,623 [DEBUG] app1.py:1254 - Speech recognizing: hello what
+2024-12-03 18:54:15,626 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=8cad300d785844039bfa0f529b7a7c4a, text="hello what", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:15,627 [DEBUG] app1.py:1104 - Sending transcription: hello what (is_final: False)
+2024-12-03 18:54:15,631 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:54:15,633 [DEBUG] app1.py:1031 - Received translation request - Text: 'hello what', Target: pt, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: False
+2024-12-03 18:54:15,635 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:54:16,019 [DEBUG] app1.py:1254 - Speech recognizing: hello what are you doing
+2024-12-03 18:54:16,022 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=dccef17577a04fe690af42d69acac550, text="hello what are you doing", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:16,023 [DEBUG] app1.py:1104 - Sending transcription: hello what are you doing (is_final: False)
+2024-12-03 18:54:16,029 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:54:16,030 [DEBUG] app1.py:1031 - Received translation request - Text: 'hello what are you doing', Target: pt, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: False
+2024-12-03 18:54:16,033 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:54:17,227 [DEBUG] app1.py:1254 - Speech recognizing: hello what are you doing how
+2024-12-03 18:54:17,228 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=15aeb7ece6df41f094fa4c2a70c16f6d, text="hello what are you doing how", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:17,231 [DEBUG] app1.py:1104 - Sending transcription: hello what are you doing how (is_final: False)
+2024-12-03 18:54:17,240 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:54:17,242 [DEBUG] app1.py:1031 - Received translation request - Text: 'hello what are you doing how', Target: pt, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: False
+2024-12-03 18:54:17,264 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:54:17,320 [DEBUG] app1.py:1254 - Speech recognizing: hello what are you doing how are you
+2024-12-03 18:54:17,321 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=91fdc6a0c04a4076a65381ba27c53eee, text="hello what are you doing how are you", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:17,324 [DEBUG] app1.py:1104 - Sending transcription: hello what are you doing how are you (is_final: False)
+2024-12-03 18:54:17,370 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:54:17,371 [DEBUG] app1.py:1031 - Received translation request - Text: 'hello what are you doing how are you', Target: pt, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: False
+2024-12-03 18:54:17,371 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:54:18,106 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-03 18:54:18,108 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-03 18:54:18,228 [INFO] app1.py:1244 - Speech recognized: Hello. What are you doing? How are you?
+2024-12-03 18:54:18,229 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=146f6168193840c6b17c43e57ea9df48, text="Hello. What are you doing? How are you?", reason=ResultReason.RecognizedSpeech)
+2024-12-03 18:54:18,231 [DEBUG] app1.py:1104 - Sending transcription: Hello. What are you doing? How are you? (is_final: True)
+2024-12-03 18:54:18,240 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:54:18,242 [DEBUG] app1.py:1031 - Received translation request - Text: 'Hello. What are you doing? How are you?', Target: pt, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: True
+2024-12-03 18:54:18,243 [DEBUG] app1.py:1042 - Normalized text: 'hello. what are you doing? how are you?'
+2024-12-03 18:54:18,244 [DEBUG] app1.py:1056 - Checking cache with key: hello. what are you doing? how are you?:pt
+2024-12-03 18:54:18,246 [DEBUG] app1.py:1071 - No cache hit, proceeding with translation
+2024-12-03 18:54:18,249 [INFO] app1.py:933 - Starting translation request - Text: 'hello. what are you doing? how are you?', Target language: pt
+2024-12-03 18:54:18,251 [DEBUG] app1.py:962 - Making API request to https://api.cognitive.microsofttranslator.com/translate
+2024-12-03 18:54:18,254 [DEBUG] app1.py:963 - Request params: {'api-version': '3.0', 'to': 'pt-BR'}
+2024-12-03 18:54:18,261 [DEBUG] app1.py:964 - Request body: [{'text': 'hello. what are you doing? how are you?'}]
+2024-12-03 18:54:18,793 [DEBUG] app1.py:967 - Response status: 200
+2024-12-03 18:54:18,795 [DEBUG] app1.py:971 - Raw API response: [{'detectedLanguage': {'language': 'en', 'score': 1.0}, 'translations': [{'text': 'Olá. O que é que está a fazer? Como está?', 'to': 'pt'}]}]
+2024-12-03 18:54:18,795 [DEBUG] app1.py:974 - Extracted translation: Olá. O que é que está a fazer? Como está?
+2024-12-03 18:54:18,797 [INFO] app1.py:975 - Translation completed successfully - Original: 'hello. what are you doing? how are you?' -> Translation: 'Olá. O que é que está a fazer? Como está?' (pt)
+2024-12-03 18:54:18,798 [DEBUG] app1.py:918 - Sending translation to client 1321d722-c3f3-4afc-860a-291fb2b60b8e: Olá. O que é que está a fazer? Como está?
+2024-12-03 18:54:18,800 [DEBUG] app1.py:925 - Translation sent successfully to client 1321d722-c3f3-4afc-860a-291fb2b60b8e
+2024-12-03 18:54:18,802 [DEBUG] app1.py:1144 - Sending message to client 1321d722-c3f3-4afc-860a-291fb2b60b8e: {'type': 'final', 'translation': 'Olá. O que é que está a fazer? Como está?'}
+2024-12-03 18:54:18,825 [INFO] app1.py:1325 - Speech synthesis requested - Text: 'Olá. O que é que está a fazer? Como está?', Language: pt
+2024-12-03 18:54:18,828 [DEBUG] app1.py:1346 - Created temporary file: C:\Users\RAHULR~1\AppData\Local\Temp\speech_57eb3a2a-3dfc-4544-ae04-9870aa9d9870.wav
+2024-12-03 18:54:18,829 [DEBUG] app1.py:1355 - Starting speech synthesis
+2024-12-03 18:54:19,795 [INFO] app1.py:1368 - Speech synthesis completed successfully
+2024-12-03 18:54:19,796 [DEBUG] app1.py:1392 - Cleaning up temporary file: C:\Users\RAHULR~1\AppData\Local\Temp\speech_57eb3a2a-3dfc-4544-ae04-9870aa9d9870.wav
+2024-12-03 18:54:22,312 [DEBUG] app1.py:1254 - Speech recognizing: over
+2024-12-03 18:54:22,314 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=f4966c5cf9194257b135dffc048d6b55, text="over", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:22,316 [DEBUG] app1.py:1104 - Sending transcription: over (is_final: False)
+2024-12-03 18:54:22,338 [INFO] app1.py:1023 - Real-time translation endpoint called
+2024-12-03 18:54:22,343 [DEBUG] app1.py:1031 - Received translation request - Text: 'over', Target: pt, Client: 1321d722-c3f3-4afc-860a-291fb2b60b8e, Final: False
+2024-12-03 18:54:22,344 [DEBUG] app1.py:1038 - Skipping non-final transcription
+2024-12-03 18:54:26,616 [INFO] app1.py:1181 - Stopping stream processing
+2024-12-03 18:54:26,618 [INFO] app1.py:1209 - Stream stopped successfully
+2024-12-03 18:54:26,619 [DEBUG] app1.py:1144 - Sending message to client 1321d722-c3f3-4afc-860a-291fb2b60b8e: {'type': 'final', 'translation': ''}
+2024-12-03 18:54:26,782 [INFO] app1.py:1304 - Speech recognition stopped
+2024-12-03 18:54:29,449 [INFO] app1.py:1230 - Initializing speech recognition
+2024-12-03 18:54:29,461 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-03 18:54:29,462 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-03 18:54:29,546 [INFO] app1.py:1267 - Starting continuous recognition
+2024-12-03 18:54:29,644 [INFO] app1.py:1280 - Audio stream started
+2024-12-03 18:54:31,641 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-03 18:54:31,643 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=8ea95c22cbe341fba4adcbd82f0c8674, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:31,644 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-03 18:54:31,995 [DEBUG] app1.py:1254 - Speech recognizing: hello how are you
+2024-12-03 18:54:31,996 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=b6a2a27d15df433f90badce33edf3d86, text="hello how are you", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:31,997 [DEBUG] app1.py:1104 - Sending transcription: hello how are you (is_final: False)
+2024-12-03 18:54:32,901 [DEBUG] app1.py:1254 - Speech recognizing: hello how are you what
+2024-12-03 18:54:32,903 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=67b6844557b44ff3a2a3d75da28b9913, text="hello how are you what", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:32,904 [DEBUG] app1.py:1104 - Sending transcription: hello how are you what (is_final: False)
+2024-12-03 18:54:33,322 [DEBUG] app1.py:1254 - Speech recognizing: hello how are you what are you doing
+2024-12-03 18:54:33,323 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=872bbc4a0b944a25b5f11e65b3ffc399, text="hello how are you what are you doing", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:33,324 [DEBUG] app1.py:1104 - Sending transcription: hello how are you what are you doing (is_final: False)
+2024-12-03 18:54:33,806 [INFO] app1.py:1244 - Speech recognized: Hello, how are you? What are you doing?
+2024-12-03 18:54:33,807 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=386641b223064fcbb0a416b7b7bbac80, text="Hello, how are you? What are you doing?", reason=ResultReason.RecognizedSpeech)
+2024-12-03 18:54:33,809 [DEBUG] app1.py:1104 - Sending transcription: Hello, how are you? What are you doing? (is_final: True)
+2024-12-03 18:54:34,210 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-03 18:54:34,212 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-03 18:54:35,001 [DEBUG] app1.py:1254 - Speech recognizing: hello
+2024-12-03 18:54:35,001 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=fe8ee3cb03234338b798528343774629, text="hello", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:35,002 [DEBUG] app1.py:1104 - Sending transcription: hello (is_final: False)
+2024-12-03 18:54:35,903 [DEBUG] app1.py:1254 - Speech recognizing: hello how are you
+2024-12-03 18:54:35,904 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=c01bf70b255141ba91190d96f9330153, text="hello how are you", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:35,905 [DEBUG] app1.py:1104 - Sending transcription: hello how are you (is_final: False)
+2024-12-03 18:54:36,404 [INFO] app1.py:1244 - Speech recognized: Hello, how are you?
+2024-12-03 18:54:36,405 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=bd0637e9d79e400eafa150704514ca42, text="Hello, how are you?", reason=ResultReason.RecognizedSpeech)
+2024-12-03 18:54:36,407 [DEBUG] app1.py:1104 - Sending transcription: Hello, how are you? (is_final: True)
+2024-12-03 18:54:43,387 [DEBUG] app1.py:1254 - Speech recognizing: mercer
+2024-12-03 18:54:43,389 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=5e272ea5003345c3a5c105354c56e1f6, text="mercer", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:43,390 [DEBUG] app1.py:1104 - Sending transcription: mercer (is_final: False)
+2024-12-03 18:54:43,932 [INFO] app1.py:898 - Active clients: ['6869eb91-4792-44cd-94bb-02c86eedc7b7', '1321d722-c3f3-4afc-860a-291fb2b60b8e']
+2024-12-03 18:54:44,294 [DEBUG] app1.py:1254 - Speech recognizing: mercer and
+2024-12-03 18:54:44,295 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=af340e54ee5a4cd3823f24d385dd97c8, text="mercer and", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:44,297 [DEBUG] app1.py:1104 - Sending transcription: mercer and (is_final: False)
+2024-12-03 18:54:45,290 [DEBUG] app1.py:1254 - Speech recognizing: mercer and burning
+2024-12-03 18:54:45,291 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=e4a59d6bc28b4bfb9e9142e0d9c543eb, text="mercer and burning", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:45,293 [DEBUG] app1.py:1104 - Sending transcription: mercer and burning (is_final: False)
+2024-12-03 18:54:46,929 [INFO] app1.py:1244 - Speech recognized: Mercer.
+2024-12-03 18:54:46,930 [DEBUG] app1.py:1245 - Recognition result details: SpeechRecognitionResult(result_id=7c8362afdd3a401bb89978e7598f7b2a, text="Mercer.", reason=ResultReason.RecognizedSpeech)
+2024-12-03 18:54:46,931 [DEBUG] app1.py:1104 - Sending transcription: Mercer. (is_final: True)
+2024-12-03 18:54:55,702 [DEBUG] app1.py:1254 - Speech recognizing: the click
+2024-12-03 18:54:55,703 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=9860e56449fa406cbfc1e5bd15771651, text="the click", reason=ResultReason.RecognizingSpeech)
+2024-12-03 18:54:55,980 [DEBUG] app1.py:1254 - Speech recognizing: the clay video
+2024-12-03 18:54:55,981 [DEBUG] app1.py:1255 - Recognition interim details: SpeechRecognitionResult(result_id=b2518cd13b204669bd559d2c7c10ff65, text="the clay video", reason=ResultReason.RecognizingSpeech)

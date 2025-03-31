@@ -1,0 +1,139 @@
+2024-12-02 13:09:29,449 [INFO] app1.py:898 - Active clients: []
+2024-12-02 13:09:29,452 [INFO] app1.py:1402 - Starting Flask application
+2024-12-02 13:09:29,452 [INFO] app1.py:1405 - Starting with Waitress server on http://127.0.0.1:4585
+2024-12-02 13:09:36,541 [INFO] app1.py:1018 - Join live page requested
+2024-12-02 13:09:37,773 [INFO] app1.py:1013 - Go live page requested
+2024-12-02 13:09:39,094 [INFO] app1.py:1192 - Initializing speech recognition
+2024-12-02 13:09:39,316 [INFO] app1.py:1227 - Starting continuous recognition
+2024-12-02 13:09:39,497 [INFO] app1.py:1240 - Audio stream started
+2024-12-02 13:09:41,175 [DEBUG] app1.py:1214 - Speech recognizing: hi how are you
+2024-12-02 13:09:41,176 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=4ef3568a8c9e4ecdaa959b9e981b094b, text="hi how are you", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:09:41,817 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-02 13:09:41,817 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-02 13:09:41,818 [DEBUG] app1.py:1104 - Sending transcription: hi how are you (is_final: False)
+2024-12-02 13:09:42,909 [INFO] app1.py:1205 - Speech recognized: Hi, how are you?
+2024-12-02 13:09:42,910 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=bd180fd2f2634b8d930b22f5c0435598, text="Hi, how are you?", reason=ResultReason.RecognizedSpeech)
+2024-12-02 13:09:42,911 [DEBUG] app1.py:1104 - Sending transcription: Hi, how are you? (is_final: True)
+2024-12-02 13:09:44,997 [DEBUG] app1.py:1214 - Speech recognizing: hi how are you
+2024-12-02 13:09:44,998 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=7425de84cd0a46259864e001569a00b4, text="hi how are you", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:09:44,999 [DEBUG] app1.py:1104 - Sending transcription: hi how are you (is_final: False)
+2024-12-02 13:09:45,879 [INFO] app1.py:1205 - Speech recognized: Hi, how are you?
+2024-12-02 13:09:45,879 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=1b1ca6bcc6a244f2a5d9bda78a01fa51, text="Hi, how are you?", reason=ResultReason.RecognizedSpeech)
+2024-12-02 13:09:45,880 [DEBUG] app1.py:1104 - Sending transcription: Hi, how are you? (is_final: True)
+2024-12-02 13:09:48,386 [DEBUG] app1.py:1214 - Speech recognizing: what are you doing
+2024-12-02 13:09:48,387 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=f9a47c3f5528491a9112b64080b1e593, text="what are you doing", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:09:48,389 [DEBUG] app1.py:1104 - Sending transcription: what are you doing (is_final: False)
+2024-12-02 13:09:49,118 [INFO] app1.py:1205 - Speech recognized: What are you doing?
+2024-12-02 13:09:49,118 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=f45832f5817042588d98076ee2f45a23, text="What are you doing?", reason=ResultReason.RecognizedSpeech)
+2024-12-02 13:09:49,120 [DEBUG] app1.py:1104 - Sending transcription: What are you doing? (is_final: True)
+2024-12-02 13:09:50,457 [DEBUG] app1.py:1214 - Speech recognizing: what are you doing
+2024-12-02 13:09:50,458 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=5bd748032b9e4f769cc53c762ad960ec, text="what are you doing", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:09:50,459 [DEBUG] app1.py:1104 - Sending transcription: what are you doing (is_final: False)
+2024-12-02 13:09:52,321 [INFO] app1.py:1205 - Speech recognized: What are you doing?
+2024-12-02 13:09:52,322 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=2f6c25cda8bb48e1b7c5e315655ba475, text="What are you doing?", reason=ResultReason.RecognizedSpeech)
+2024-12-02 13:09:52,326 [DEBUG] app1.py:1104 - Sending transcription: What are you doing? (is_final: True)
+2024-12-02 13:09:54,448 [DEBUG] app1.py:1214 - Speech recognizing: play music
+2024-12-02 13:09:54,448 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=293324fdf6e34451ab7beb920ea8b0e2, text="play music", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:09:54,449 [DEBUG] app1.py:1104 - Sending transcription: play music (is_final: False)
+2024-12-02 13:09:54,743 [DEBUG] app1.py:1214 - Speech recognizing: play chandrakanta
+2024-12-02 13:09:54,743 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=42d2df69fc6f4294991c18fb2a3db127, text="play chandrakanta", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:09:54,743 [DEBUG] app1.py:1104 - Sending transcription: play chandrakanta (is_final: False)
+2024-12-02 13:09:55,344 [DEBUG] app1.py:1214 - Speech recognizing: play chandrakanta bengali
+2024-12-02 13:09:55,344 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=2324bf0378e0466facf05d7d564e375b, text="play chandrakanta bengali", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:09:55,345 [DEBUG] app1.py:1104 - Sending transcription: play chandrakanta bengali (is_final: False)
+2024-12-02 13:09:56,961 [INFO] app1.py:1205 - Speech recognized: Play Chandrakanta Bengali.
+2024-12-02 13:09:56,962 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=36b39e16ad034785b6127d3ea5abb1a1, text="Play Chandrakanta Bengali.", reason=ResultReason.RecognizedSpeech)
+2024-12-02 13:09:56,963 [DEBUG] app1.py:1104 - Sending transcription: Play Chandrakanta Bengali. (is_final: True)
+2024-12-02 13:09:59,095 [DEBUG] app1.py:1214 - Speech recognizing: play my chat
+2024-12-02 13:09:59,096 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=e54a0350790d4053ab6e39e46996c1a4, text="play my chat", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:09:59,097 [DEBUG] app1.py:1104 - Sending transcription: play my chat (is_final: False)
+2024-12-02 13:09:59,452 [INFO] app1.py:898 - Active clients: []
+2024-12-02 13:09:59,497 [DEBUG] app1.py:1214 - Speech recognizing: my children have been going
+2024-12-02 13:09:59,497 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=9f3efff3d09f4a99842e8c820dd935fe, text="my children have been going", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:09:59,498 [DEBUG] app1.py:1104 - Sending transcription: my children have been going (is_final: False)
+2024-12-02 13:09:59,669 [INFO] app1.py:1121 - New translation stream connection for client: 443a8035-98d0-4ab0-a34f-f8f95e4b7246, language: es
+2024-12-02 13:09:59,670 [INFO] app1.py:1131 - Creating new client connection: 443a8035-98d0-4ab0-a34f-f8f95e4b7246
+2024-12-02 13:09:59,886 [DEBUG] app1.py:1214 - Speech recognizing: bengal
+2024-12-02 13:09:59,886 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=33cc5a285e8f43e78f7816dd98217a39, text="bengal", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:09:59,887 [DEBUG] app1.py:1104 - Sending transcription: bengal (is_final: False)
+2024-12-02 13:10:00,012 [DEBUG] app1.py:1214 - Speech recognizing: bengali
+2024-12-02 13:10:00,013 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=8401144ea5e340b3b2b5c11425477b0a, text="bengali", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:10:00,014 [DEBUG] app1.py:1104 - Sending transcription: bengali (is_final: False)
+2024-12-02 13:10:00,662 [INFO] app1.py:1205 - Speech recognized: Bengali.
+2024-12-02 13:10:00,663 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=1079d7f820f3447e89f8332782924584, text="Bengali.", reason=ResultReason.RecognizedSpeech)
+2024-12-02 13:10:00,663 [DEBUG] app1.py:1104 - Sending transcription: Bengali. (is_final: True)
+2024-12-02 13:10:06,398 [DEBUG] app1.py:1214 - Speech recognizing: hi
+2024-12-02 13:10:06,399 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=48e477c5b89e4467b913949de57d1885, text="hi", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:10:06,400 [DEBUG] app1.py:1104 - Sending transcription: hi (is_final: False)
+2024-12-02 13:10:06,402 [INFO] app1.py:1205 - Speech recognized: Hi.
+2024-12-02 13:10:06,403 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=dba2a299d5e84e92bed7e69e5927e747, text="Hi.", reason=ResultReason.RecognizedSpeech)
+2024-12-02 13:10:06,404 [DEBUG] app1.py:1104 - Sending transcription: Hi. (is_final: True)
+2024-12-02 13:10:07,177 [DEBUG] app1.py:1214 - Speech recognizing: what
+2024-12-02 13:10:07,177 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=b19d2eb8585e4525bb5b2e535b3be84e, text="what", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:10:07,177 [DEBUG] app1.py:1104 - Sending transcription: what (is_final: False)
+2024-12-02 13:10:07,581 [DEBUG] app1.py:1214 - Speech recognizing: what are you doing
+2024-12-02 13:10:07,582 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=b5674f98a96449659605e31bd29982f0, text="what are you doing", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:10:07,584 [DEBUG] app1.py:1104 - Sending transcription: what are you doing (is_final: False)
+2024-12-02 13:10:08,466 [INFO] app1.py:1205 - Speech recognized: What are you doing?
+2024-12-02 13:10:08,467 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=b7b1bd65463446d4ab4ebd3d2c28ffbe, text="What are you doing?", reason=ResultReason.RecognizedSpeech)
+2024-12-02 13:10:08,468 [DEBUG] app1.py:1104 - Sending transcription: What are you doing? (is_final: True)
+2024-12-02 13:10:14,065 [INFO] app1.py:1250 - Stopping audio stream
+2024-12-02 13:10:14,278 [DEBUG] app1.py:1214 - Speech recognizing: show tere
+2024-12-02 13:10:14,279 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=fa236e578e7c497a9d10c69104168573, text="show tere", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:10:14,280 [DEBUG] app1.py:1104 - Sending transcription: show tere (is_final: False)
+2024-12-02 13:10:14,295 [INFO] app1.py:1205 - Speech recognized: Show Teresa.
+2024-12-02 13:10:14,297 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=1e911031a9cf4007b0f55e03582aa111, text="Show Teresa.", reason=ResultReason.RecognizedSpeech)
+2024-12-02 13:10:14,299 [DEBUG] app1.py:1104 - Sending transcription: Show Teresa. (is_final: True)
+2024-12-02 13:10:14,301 [INFO] app1.py:1255 - Audio streaming stopped
+2024-12-02 13:10:14,804 [INFO] app1.py:1192 - Initializing speech recognition
+2024-12-02 13:10:14,807 [INFO] app1.py:1096 - New transcription stream connection established
+2024-12-02 13:10:14,808 [INFO] app1.py:1121 - New translation stream connection for client: 443a8035-98d0-4ab0-a34f-f8f95e4b7246, language: es
+2024-12-02 13:10:14,808 [DEBUG] app1.py:1098 - Starting transcription stream generator
+2024-12-02 13:10:14,847 [INFO] app1.py:1227 - Starting continuous recognition
+2024-12-02 13:10:14,931 [INFO] app1.py:1240 - Audio stream started
+2024-12-02 13:10:17,278 [DEBUG] app1.py:1214 - Speech recognizing: hi what
+2024-12-02 13:10:17,278 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=2083a09c79814bd79eb2ae79a1c88b7a, text="hi what", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:10:17,279 [DEBUG] app1.py:1104 - Sending transcription: hi what (is_final: False)
+2024-12-02 13:10:17,605 [DEBUG] app1.py:1214 - Speech recognizing: hi what are you doing
+2024-12-02 13:10:17,605 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=0cbf7101273f4ab296664c9c9c68aace, text="hi what are you doing", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:10:17,605 [DEBUG] app1.py:1104 - Sending transcription: hi what are you doing (is_final: False)
+2024-12-02 13:10:18,258 [INFO] app1.py:1205 - Speech recognized: Hi, what are you doing?
+2024-12-02 13:10:18,258 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=63af905a3a3c4ab48e7cefb874e96ac8, text="Hi, what are you doing?", reason=ResultReason.RecognizedSpeech)
+2024-12-02 13:10:18,259 [DEBUG] app1.py:1104 - Sending transcription: Hi, what are you doing? (is_final: True)
+2024-12-02 13:10:21,719 [DEBUG] app1.py:1214 - Speech recognizing: virat kohli
+2024-12-02 13:10:21,720 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=e1f4a98f28324180ab201f0d28e0cb4c, text="virat kohli", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:10:21,721 [DEBUG] app1.py:1104 - Sending transcription: virat kohli (is_final: False)
+2024-12-02 13:10:22,915 [DEBUG] app1.py:1214 - Speech recognizing: virat kohli we don't
+2024-12-02 13:10:22,915 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=db7ca657db784ad1a81f87afc3b15c8a, text="virat kohli we don't", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:10:22,916 [DEBUG] app1.py:1104 - Sending transcription: virat kohli we don't (is_final: False)
+2024-12-02 13:10:23,816 [DEBUG] app1.py:1214 - Speech recognizing: virat kohli we don't do
+2024-12-02 13:10:23,817 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=af9a6fe556b445d78ba587c7a99a137c, text="virat kohli we don't do", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:10:23,819 [DEBUG] app1.py:1104 - Sending transcription: virat kohli we don't do (is_final: False)
+2024-12-02 13:10:27,712 [DEBUG] app1.py:1214 - Speech recognizing: acha
+2024-12-02 13:10:27,713 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=a2db5e407c01419fb95926b804634263, text="acha", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:10:27,713 [DEBUG] app1.py:1104 - Sending transcription: acha (is_final: False)
+2024-12-02 13:10:28,010 [DEBUG] app1.py:1214 - Speech recognizing: acha is
+2024-12-02 13:10:28,011 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=1005d0d97bdd4549bb28bd863aea4f7a, text="acha is", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:10:28,013 [DEBUG] app1.py:1104 - Sending transcription: acha is (is_final: False)
+2024-12-02 13:10:28,415 [DEBUG] app1.py:1214 - Speech recognizing: achaa is
+2024-12-02 13:10:28,416 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=e6df5ef602f5444fb2ee3a93e65bfcd0, text="achaa is", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:10:28,416 [DEBUG] app1.py:1104 - Sending transcription: achaa is (is_final: False)
+2024-12-02 13:10:29,022 [DEBUG] app1.py:1214 - Speech recognizing: achaa is gonna
+2024-12-02 13:10:29,022 [DEBUG] app1.py:1215 - Recognition interim details: SpeechRecognitionResult(result_id=b4b3efa17f274f6198e65b9c43ae6428, text="achaa is gonna", reason=ResultReason.RecognizingSpeech)
+2024-12-02 13:10:29,023 [DEBUG] app1.py:1104 - Sending transcription: achaa is gonna (is_final: False)
+2024-12-02 13:10:29,398 [INFO] app1.py:1205 - Speech recognized: Achaa is.
+2024-12-02 13:10:29,399 [DEBUG] app1.py:1206 - Recognition result details: SpeechRecognitionResult(result_id=0e07f93dfe8e4189bab73d50c210384d, text="Achaa is.", reason=ResultReason.RecognizedSpeech)
+2024-12-02 13:10:29,400 [DEBUG] app1.py:1104 - Sending transcription: Achaa is. (is_final: True)
+2024-12-02 13:10:29,453 [INFO] app1.py:898 - Active clients: ['443a8035-98d0-4ab0-a34f-f8f95e4b7246']
+2024-12-02 13:10:29,954 [WARNING] app1.py:1148 - Client 443a8035-98d0-4ab0-a34f-f8f95e4b7246 connection timed out
+2024-12-02 13:10:31,967 [INFO] app1.py:1121 - New translation stream connection for client: 443a8035-98d0-4ab0-a34f-f8f95e4b7246, language: es
+2024-12-02 13:10:32,534 [INFO] app1.py:1250 - Stopping audio stream
+2024-12-02 13:10:32,663 [INFO] app1.py:1255 - Audio streaming stopped
+2024-12-02 13:10:32,975 [WARNING] app1.py:1148 - Client 443a8035-98d0-4ab0-a34f-f8f95e4b7246 connection timed out
+2024-12-02 13:10:59,455 [INFO] app1.py:898 - Active clients: ['443a8035-98d0-4ab0-a34f-f8f95e4b7246']
+2024-12-02 13:11:17,853 [INFO] app1.py:1392 - Received signal 2
+2024-12-02 13:11:17,854 [INFO] app1.py:1358 - Cleaning up resources...
+2024-12-02 13:11:17,854 [DEBUG] app1.py:1365 - Cleaning up client: 443a8035-98d0-4ab0-a34f-f8f95e4b7246
+2024-12-02 13:11:17,856 [DEBUG] app1.py:1372 - Shutting down executor
+2024-12-02 13:11:17,857 [DEBUG] app1.py:1379 - Clearing queues
+2024-12-02 13:11:17,862 [INFO] app1.py:1388 - Cleanup completed

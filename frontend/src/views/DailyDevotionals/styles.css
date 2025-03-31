@@ -1,0 +1,30 @@
+.devotionals-container {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .devotional-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto; /* Adjusted for responsiveness */
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
